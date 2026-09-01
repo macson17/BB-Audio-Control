@@ -18,6 +18,29 @@ Die aktuelle Testversion steht unter
 als einzelne Setup-Datei bereit. Bitte ausschließlich Dateien aus diesem
 offiziellen Repository verwenden.
 
+## Screenshots
+
+### Mixer
+
+![BB Audio Control mit mehreren Programmen](screenshots/mixer.png)
+
+### Bearbeiten-Modus
+
+![Bearbeiten-Modus von BB Audio Control](screenshots/edit-mode.png)
+
+<details>
+<summary>Weitere Ansichten anzeigen</summary>
+
+### Hintergrundauswahl
+
+![Hintergrundauswahl von BB Audio Control](screenshots/backgrounds.png)
+
+### Faderfarbauswahl
+
+![Faderfarbauswahl von BB Audio Control](screenshots/fader-colors.png)
+
+</details>
+
 ## Funktionen
 
 - Master-Lautstärke und Master-Mute

@@ -16,6 +16,29 @@ The latest test version is available as a single setup file on the
 [GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest)
 page. Only download files from this official repository.
 
+## Screenshots
+
+### Mixer
+
+![BB Audio Control mixer with multiple applications](screenshots/mixer.png)
+
+### Edit mode
+
+![BB Audio Control edit mode](screenshots/edit-mode.png)
+
+<details>
+<summary>More interface views</summary>
+
+### Background selection
+
+![BB Audio Control background selection](screenshots/backgrounds.png)
+
+### Fader color selection
+
+![BB Audio Control fader color selection](screenshots/fader-colors.png)
+
+</details>
+
 ## Features
 
 - Master volume and master mute
