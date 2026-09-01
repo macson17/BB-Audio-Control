@@ -1,33 +1,33 @@
-name: Funktionswunsch
-description: Eine Idee oder Verbesserung für BB Audio Control vorschlagen
-title: "[Wunsch] "
+name: Request a feature (English)
+description: Suggest an idea or improvement for BB Audio Control
+title: "[Feature] "
 labels:
   - enhancement
 body:
   - type: markdown
     attributes:
       value: |
-        Danke für die Idee. Bitte beschreibe zuerst das Problem oder den
-        Anwendungsfall und anschließend die gewünschte Lösung.
+        Thank you for the idea. Please describe the problem or use case first,
+        followed by your proposed solution.
 
   - type: textarea
     id: use_case
     attributes:
-      label: Anwendungsfall
-      description: Welches Problem soll gelöst werden?
+      label: Use case
+      description: What problem should be solved?
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: Vorschlag
-      description: Wie könnte die gewünschte Funktion aussehen oder bedient werden?
+      label: Suggestion
+      description: How could the requested feature look or work?
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternativen
-      description: Gibt es bereits einen möglichen Workaround?
+      label: Alternatives
+      description: Is there an existing workaround?

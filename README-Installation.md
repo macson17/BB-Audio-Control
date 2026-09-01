@@ -1,84 +1,83 @@
-# BB Audio Control v0.9.9 Beta – Installation
+# BB Audio Control v0.9.9 Beta — Installation
+
+[English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest)
-   die Datei `BB-Audio-Control-Setup-v0.9.9.exe` herunterladen.
-2. Die Setup-Datei doppelt anklicken.
-3. Deutsch oder Englisch auswählen.
-4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
-   „Weitere Informationen“ und anschließend „Trotzdem ausführen“ wählen.
-5. „BB Audio Control mit Windows starten“ ist standardmäßig aktiviert und kann
-   bei Bedarf abgewählt werden.
-6. Die Installation abschließen.
-7. Die Windows-Abfrage zum Einrichten der programmspezifischen Firewall-Regel
-   für private Netzwerke bestätigen.
+1. Download `BB-Audio-Control-Setup-v0.9.9.exe` from
+   [GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest).
+2. Double-click the setup file.
+3. Select German or English.
+4. If Windows SmartScreen displays "Unknown publisher," select "More info"
+   and then "Run anyway."
+5. "Start BB Audio Control with Windows" is enabled by default and can be
+   disabled if preferred.
+6. Complete the installation.
+7. Confirm the Windows prompt that creates the application-specific firewall
+   rule for private networks.
 
-Die App installiert sich für den aktuellen Windows-Benutzer. Eine separate
-.NET-Installation ist nicht notwendig.
+The app is installed for the current Windows user. A separate .NET installation
+is not required.
 
-## Tablet verbinden
+## Connect a tablet
 
-1. PC und Tablet mit demselben privaten Netzwerk verbinden.
-2. Das BB-Audio-Control-Einstellungsfenster am PC öffnen. Dazu das Symbol neben
-   der Windows-Uhr doppelt anklicken.
-3. Den QR-Code mit dem Tablet scannen oder die angezeigte Adresse manuell im
-   Browser öffnen, zum Beispiel `http://192.168.x.x:5179`.
-4. Den im PC-Fenster angezeigten sechsstelligen Pairing-Code eingeben.
-5. Optional die Seite zum Home- beziehungsweise Startbildschirm hinzufügen.
+1. Connect the PC and tablet to the same private network.
+2. Open the BB Audio Control settings window on the PC by double-clicking its
+   icon next to the Windows clock.
+3. Scan the QR code with the tablet or manually open the displayed address in
+   the browser, for example `http://192.168.x.x:5179`.
+4. Enter the six-digit pairing code shown in the PC window.
+5. Optionally add the page to the Home screen.
 
-Der QR-Code enthält nur die lokale Adresse und nicht den Pairing-Code.
+The QR code contains only the local address, not the pairing code.
 
-## Grundbedienung
+## Basic controls
 
-- Der große linke Fader steuert die Gesamtlautstärke.
-- Die Ausgangstasten wechseln den Windows-Standardausgang.
-- „Sound“ schaltet die Gesamtausgabe stumm oder wieder ein.
-- Ein kurzer Druck auf die Mikrofon-Taste schaltet das Mikrofon stumm.
-- Ein langer Druck auf die Mikrofon-Taste öffnet die Eingangsauswahl.
-- Programmfader steuern aktive Windows-Audio-Sessions.
-- Unter „Bearbeiten“ lassen sich Ausgänge und Programme anpassen.
-- Unter „Darstellung“ lassen sich Sprache, Hintergrund und Faderfarbe ändern.
+- The large fader on the left controls the master volume.
+- The output buttons change the Windows default audio output.
+- The Sound button mutes or unmutes all output.
+- A short press on the microphone button mutes or unmutes the microphone.
+- Holding the microphone button opens the input selection.
+- Application faders control active Windows audio sessions.
+- Edit mode lets you customize outputs and applications.
+- Appearance settings control the language, background, and fader color.
 
-Programme werden erst angezeigt, nachdem Windows für sie eine aktive
-Audio-Session erkannt hat. Falls ein Programm fehlt, dort zunächst Ton
-abspielen.
+Applications appear only after Windows detects an active audio session. If an
+application is missing, play some audio in it first.
 
 ## Update
 
-Eine neue Setup-Datei über die vorhandene Installation ausführen. Das Setup
-beendet die laufende App, ersetzt die Programmdateien und startet anschließend
-auf Wunsch die neue Version.
+Run a new setup file over the existing installation. Setup closes the running
+app, replaces its program files, and can restart the new version afterwards.
 
-Folgende Daten bleiben erhalten:
+The following data is retained:
 
-- Pairing-Code
-- Geräte- und Programmanpassungen
-- Faderfarben und Hintergrund
-- Programmlautstärke und Mute pro Audioausgang
-- Spracheinstellungen
+- Pairing code
+- Device and application customizations
+- Fader colors and background
+- Per-output application volume and mute state
+- Language setting
 
-## Wenn keine Verbindung möglich ist
+## If the tablet cannot connect
 
-- Prüfen, ob BB Audio Control auf dem PC läuft.
-- Prüfen, ob PC und Tablet im selben erreichbaren Netzwerk sind.
-- Die aktuell im PC-Fenster angezeigte Adresse verwenden.
-- Die private Windows-Firewallregel für BB Audio Control kontrollieren.
-- Gast-WLAN, Client-Isolation und VPN testweise ausschließen.
-- Nach einem Netzwerkwechsel den aktuellen QR-Code erneut scannen.
+- Check that BB Audio Control is running on the PC.
+- Check that the PC and tablet are on the same reachable network.
+- Use the address currently displayed in the PC window.
+- Check the private Windows firewall rule for BB Audio Control.
+- Temporarily rule out guest Wi-Fi, client isolation, and VPN software.
+- Scan the current QR code again after changing networks.
 
-## Deinstallation
+## Uninstall
 
-Unter `Windows-Einstellungen > Apps > Installierte Apps` den Eintrag
-**BB Audio Control** deinstallieren.
+Open `Windows Settings > Apps > Installed apps` and uninstall
+**BB Audio Control**.
 
-Programmdateien, Autostart-Eintrag und Firewall-Regel werden entfernt.
-Persönliche Einstellungen und Pairing-Code bleiben für eine spätere
-Neuinstallation erhalten.
+Program files, the startup entry, and the firewall rule are removed. Personal
+settings and the pairing code remain for a later reinstall.
 
-## Sicherheitshinweis
+## Security notice
 
-Die Verbindung ist auf ein vertrauenswürdiges privates Netzwerk ausgelegt.
-Sie verwendet derzeit HTTP und WebSocket ohne Transportverschlüsselung. Den
-Pairing-Code nur Personen geben, die den PC steuern dürfen, und bei Verdacht im
-PC-Fenster einen neuen Code erzeugen.
+The connection is intended for a trusted private network. It currently uses
+HTTP and WebSocket without transport encryption. Only share the pairing code
+with people who are allowed to control the PC, and create a new code in the PC
+window if you suspect unauthorized access.

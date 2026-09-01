@@ -1,41 +1,39 @@
-# Sicherheit
+# Security
 
-## Unterstützter Stand
+[English](SECURITY.md) | [Deutsch](SECURITY-DE.md)
 
-Sicherheitskorrekturen werden derzeit nur für die jeweils aktuelle
-Beta-Version von BB Audio Control betrachtet.
+## Supported version
 
-## Sicherheitsmodell
+Security fixes are currently considered only for the latest beta version of
+BB Audio Control.
 
-BB Audio Control arbeitet ausschließlich im lokalen Netzwerk und verwendet
-keinen Cloud-Dienst. Steuerzugriff erfordert einen sechsstelligen Pairing-Code.
-Wird ein neuer Code erzeugt, werden bestehende Verbindungen getrennt und der
-alte Code sofort ungültig.
+## Security model
 
-Die Verbindung verwendet derzeit HTTP und WebSocket und ist nicht
-transportverschlüsselt. Pairing-Code und Steuerbefehle können innerhalb eines
-kompromittierten lokalen Netzwerks mitgelesen werden. BB Audio Control sollte
-deshalb nur in einem vertrauenswürdigen privaten Netzwerk eingesetzt werden.
+BB Audio Control operates exclusively on the local network and does not use a
+cloud service. Control access requires a six-digit pairing code. Creating a
+new code disconnects existing clients and immediately invalidates the old code.
 
-## Sicherheitsproblem melden
+The connection currently uses HTTP and WebSocket without transport encryption.
+The pairing code and control commands can be observed on a compromised local
+network. Only use BB Audio Control on a trusted private network.
 
-Bitte keine vertraulichen Details in einem öffentlichen Issue veröffentlichen.
-Das gilt insbesondere für:
+## Report a security issue
 
-- Pairing-Codes
-- echte lokale IP-Adressen
-- Rechner- und Benutzernamen
-- lokale Dateipfade
-- Protokolle mit persönlichen Daten
+Do not publish confidential details in a public issue. This includes:
 
-Falls GitHub für dieses Repository eine private Sicherheitsmeldung anbietet,
-bitte diesen Weg verwenden. Andernfalls kann zunächst ein öffentliches Issue
-ohne technische Geheimnisse erstellt und darin um einen privaten Kontaktweg
-gebeten werden.
+- Pairing codes
+- Real local IP addresses
+- Computer names and user names
+- Local file paths
+- Logs containing personal information
 
-## Abgrenzung
+If private vulnerability reporting is available for this repository, use that
+option. Otherwise, create a public issue without sensitive technical details
+and ask for a private contact method.
 
-Allgemeine Verbindungsprobleme, Bedienungsfragen und Funktionswünsche gehören
-in die normalen GitHub Issues. Eine fehlende GPU-Temperatur ist nicht
-automatisch ein Sicherheits- oder Programmfehler; der jeweilige Treiber muss
-einen unterstützten Sensorwert bereitstellen.
+## Scope
+
+General connection problems, usage questions, and feature requests belong in
+regular GitHub Issues. A missing GPU temperature is not automatically a
+security issue or application defect; the graphics driver must provide a
+supported sensor value.

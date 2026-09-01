@@ -1,31 +1,33 @@
 # Changelog
 
+[English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
+
 ## 0.9.9 Beta
 
-Erste öffentlich bereitgestellte Testversion.
+First publicly available test version.
 
-### Neu und geändert
+### New and changed
 
-- Globale Faderfarbe unter „Darstellung“ wählbar
-- Abweichende Faderfarbe pro Programm möglich
-- Überflüssige Live-Anzeige und Trennlinien im Programmbereich entfernt
-- GPU-Auslastung über Windows-native Leistungswerte
-- GPU-Temperatur mit zusätzlichem NVIDIA-Treiber-Fallback
-- LibreHardwareMonitor vollständig entfernt
-- Drittanbieter- und .NET-Lizenzhinweise in den Installer aufgenommen
-- PWA-Cache und Versionsangaben auf v0.9.9 aktualisiert
+- Global fader color can be selected under Appearance
+- An individual fader color can be assigned to each application
+- Removed the redundant Live indicator and separator lines from the application area
+- GPU usage now uses native Windows performance data
+- GPU temperature now includes an additional NVIDIA driver fallback
+- Removed LibreHardwareMonitor completely
+- Added third-party and .NET license notices to the installer
+- Updated the PWA cache and version information to v0.9.9
 
 ### Update
 
-v0.9.9 kann über eine vorhandene Installation installiert werden. Einstellungen
-und Pairing-Code bleiben erhalten.
+v0.9.9 can be installed over an existing installation. Settings and the
+pairing code are retained.
 
-### Bekannte Einschränkungen
+### Known limitations
 
-- Snapdragon-/ARM-Unterstützung noch nicht abschließend getestet
-- GPU-Werte können je nach Windows-Version, Hardware und Treiber fehlen
-- Maximal fünf Programme gleichzeitig sichtbar
-- Programme benötigen eine aktive Windows-Audio-Session
-- Kommunikation im lokalen Netzwerk derzeit ohne Transportverschlüsselung
-- Installer noch nicht digital signiert
-- Keine automatische Updatefunktion
+- Snapdragon/ARM support has not yet been fully tested
+- GPU information may be unavailable depending on Windows, hardware, and driver
+- A maximum of five applications can be visible at the same time
+- Applications require an active Windows audio session
+- Local network communication currently has no transport encryption
+- The installer is not digitally signed yet
+- Automatic updates are not available

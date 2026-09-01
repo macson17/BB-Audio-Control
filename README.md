@@ -1,109 +1,106 @@
 # BB Audio Control
 
-BB Audio Control macht ein iPad oder Android-Tablet im lokalen Netzwerk zu
-einem übersichtlichen Audiomischpult für einen Windows-PC. Lautstärke,
-Stummschaltung, Audioausgänge und Mikrofon lassen sich bedienen, ohne das
-aktuelle Spiel oder Programm zu verlassen.
+[English](README.md) | [Deutsch](README-DE.md)
 
-> **Beta-Version:** BB Audio Control befindet sich noch in der Testphase. Der
-> aktuelle Installer ist nicht digital signiert. Windows SmartScreen kann
-> deshalb „Unbekannter Herausgeber“ anzeigen.
+BB Audio Control turns an iPad or Android tablet on your local network into a
+clean audio mixer for a Windows PC. Control volume, mute states, audio outputs,
+and the microphone without leaving your current game or application.
+
+> **Beta:** BB Audio Control is still being tested. The current installer is
+> not digitally signed, so Windows SmartScreen may display an "Unknown
+> publisher" warning.
 
 ## Download
 
-Die aktuelle Testversion steht unter
+The latest test version is available as a single setup file on the
 [GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest)
-als einzelne Setup-Datei bereit.
+page. Only download files from this official repository.
 
-Bitte ausschließlich Dateien aus diesem offiziellen Repository verwenden.
+## Features
 
-## Funktionen
+- Master volume and master mute
+- Per-application volume and mute for each audio output
+- Switch the Windows default audio output
+- Mute and unmute the microphone
+- Change the microphone input by holding the microphone button
+- Show, hide, and reorder up to five applications
+- Global and per-application fader colors
+- Custom output names, icons, and colors
+- Five background themes
+- German and English interface
+- PIN pairing and a locally generated QR code
+- CPU, GPU, and RAM information where supported by the system
+- Responsive controls over WebSocket on the local network
 
-- Master-Lautstärke und Master-Mute
-- Lautstärke und Mute je aktivem Programm und Audioausgang
-- Wechsel des Windows-Standardausgangs
-- Mikrofon stumm- und einschalten
-- Mikrofoneingang durch langen Druck auf die Mikrofon-Taste wechseln
-- Bis zu fünf frei sortier- und ausblendbare Programme
-- Global und pro Programm wählbare Faderfarben
-- Anpassbare Ausgangsnamen, Symbole und Farben
-- Fünf Hintergrunddesigns
-- Deutsch und Englisch
-- PIN-Kopplung und lokaler QR-Code
-- CPU-, GPU- und RAM-Anzeige, soweit vom System unterstützt
-- Direkte Bedienreaktion über WebSocket im lokalen Netzwerk
+## Requirements
 
-## Voraussetzungen
+- Windows 10 build 19041 or later, or Windows 11
+- 64-bit Windows on an x64-compatible system
+- iPad or Android tablet in landscape orientation
+- PC and tablet on the same reachable private network
 
-- Windows 10 ab Build 19041 oder Windows 11
-- 64-Bit-Windows auf einem x64-kompatiblen System
-- iPad oder Android-Tablet im Querformat
-- PC und Tablet im selben erreichbaren privaten Netzwerk
-
-Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
+No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Die aktuelle `BB-Audio-Control-Setup-v0.9.9.exe` aus den Releases laden.
-2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
-3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
-   „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
-4. Den standardmäßig aktivierten Autostart bei Bedarf abwählen.
-5. Die Windows-Abfrage für die private Firewall-Regel bestätigen.
-6. Im Einstellungsfenster den QR-Code scannen oder die angezeigte lokale
-   Adresse auf dem Tablet öffnen.
-7. Den sechsstelligen Pairing-Code eingeben.
+1. Download `BB-Audio-Control-Setup-v0.9.9.exe` from Releases.
+2. Start the setup file and select German or English.
+3. If SmartScreen displays a warning, select "More info" and then "Run
+   anyway" only if the file came from this repository.
+4. Disable the preselected startup option if you do not want the app to start
+   with Windows.
+5. Confirm the Windows prompt for the private-network firewall rule.
+6. In the PC settings window, scan the QR code or open the displayed local
+   address on the tablet.
+7. Enter the six-digit pairing code.
 
-Eine ausführlichere Anleitung steht in
-[README-Installation.md](README-Installation.md).
+See the [English installation guide](README-Installation.md) or the
+[German installation guide](README-Installation-DE.md) for more details.
 
-## Update
+## Updates
 
-Eine neuere Setup-Datei wird einfach über die vorhandene Version installiert.
-Einstellungen und Pairing-Code bleiben erhalten. Eine normale Deinstallation
-lässt diese persönlichen Einstellungen ebenfalls bestehen.
+Run a newer setup file over the existing installation. Settings and the
+pairing code are retained. A normal uninstall also keeps these personal
+settings for a later reinstall.
 
-## Sicherheit und Datenschutz
+## Security and privacy
 
-BB Audio Control verwendet keinen Cloud-Dienst. Die Kommunikation bleibt im
-lokalen Netzwerk und erfordert für die Steuerung einen sechsstelligen
-Pairing-Code. Ein neuer Code trennt bestehende Verbindungen und macht den alten
-Code sofort ungültig.
+BB Audio Control does not use a cloud service. Communication stays on the
+local network, and control access requires a six-digit pairing code. Creating
+a new code disconnects existing clients and immediately invalidates the old
+code.
 
-Die Übertragung erfolgt derzeit über HTTP und WebSocket und ist nicht
-transportverschlüsselt. Pairing-Code und Steuerbefehle könnten in einem
-kompromittierten lokalen Netzwerk mitgelesen werden. Die Anwendung sollte nur
-in einem vertrauenswürdigen privaten Netzwerk verwendet werden.
+Communication currently uses HTTP and WebSocket without transport encryption.
+The pairing code and control commands could be observed on a compromised local
+network. Only use the application on a trusted private network.
 
-Weitere Hinweise stehen in [SECURITY.md](SECURITY.md).
+See [SECURITY.md](SECURITY.md) for details.
 
-## Bekannte Einschränkungen
+## Known limitations
 
-- Snapdragon-/ARM-Systeme sind noch nicht abschließend getestet.
-- GPU-Auslastung und GPU-Temperatur hängen von Windows und dem Grafiktreiber ab.
-- `– °C` bedeutet, dass kein unterstützter Temperaturwert bereitgestellt wird.
-- Es werden maximal fünf Programme gleichzeitig angezeigt.
-- Programme erscheinen erst, wenn Windows eine aktive Audio-Session meldet.
-- Gastnetz-Isolation, VPN oder Firewall können die Tablet-Verbindung blockieren.
-- Die lokale PC-Adresse kann sich nach einem Netzwerkwechsel ändern.
-- Der Installer ist noch nicht digital signiert.
-- Es gibt noch keine automatische Updatefunktion.
+- Snapdragon/ARM systems have not yet been fully tested.
+- GPU usage and temperature depend on Windows and the graphics driver.
+- `– °C` means that no supported temperature value is available.
+- A maximum of five applications can be displayed at the same time.
+- Applications appear only after Windows reports an active audio session.
+- Guest-network isolation, VPN software, or a firewall may block the tablet
+  connection.
+- The local PC address may change after switching networks.
+- The installer is not digitally signed yet.
+- Automatic updates are not available yet.
 
-## Probleme und Wünsche
+## Issues and feature requests
 
-Für nachvollziehbare Fehlerberichte und Funktionswünsche können die
-[GitHub Issues](https://github.com/macson17/BB-Audio-Control/issues) verwendet
-werden. Bitte niemals Pairing-Codes, echte lokale IP-Adressen, Rechnernamen,
-Benutzerpfade oder andere persönliche Daten veröffentlichen.
+Use [GitHub Issues](https://github.com/macson17/BB-Audio-Control/issues) for
+reproducible bug reports and feature requests. Never publish pairing codes,
+real local IP addresses, computer names, user paths, or other personal data.
 
-## Quellcode und Drittanbieterkomponenten
+## Source code and third-party components
 
-Dieses öffentliche Repository ist ausschließlich für Produktinformationen,
-Support und Binär-Downloads bestimmt. Der eigene Quellcode von BB Audio Control
-ist proprietär und wird nicht öffentlich bereitgestellt. Dieses Repository ist
-kein Open-Source-Projekt und enthält bewusst keine Open-Source-Lizenz für den
-eigenen Programmcode.
+This public repository is intended only for product information, support, and
+binary downloads. The BB Audio Control source code is proprietary and is not
+published. This is not an open-source project, and this repository deliberately
+does not provide an open-source license for the application's own code.
 
-Der Installer enthält die erforderlichen Lizenz- und Copyright-Hinweise für
-die verwendeten Drittanbieterkomponenten, darunter NAudio, QRCoder und die
-eingebettete .NET-Laufzeit.
+The installer includes the required license and copyright notices for its
+third-party components, including NAudio, QRCoder, and the bundled .NET runtime.
