@@ -1,0 +1,33 @@
+name: Funktionswunsch
+description: Eine Idee oder Verbesserung für BB Audio Control vorschlagen
+title: "[Wunsch] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für die Idee. Bitte beschreibe zuerst das Problem oder den
+        Anwendungsfall und anschließend die gewünschte Lösung.
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Anwendungsfall
+      description: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Vorschlag
+      description: Wie könnte die gewünschte Funktion aussehen oder bedient werden?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Gibt es bereits einen möglichen Workaround?

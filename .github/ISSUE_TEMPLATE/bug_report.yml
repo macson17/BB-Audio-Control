@@ -1,0 +1,63 @@
+name: Fehler melden
+description: Ein reproduzierbares Problem mit BB Audio Control melden
+title: "[Fehler] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für die Meldung. Bitte keine Pairing-Codes, echten IP-Adressen,
+        Rechnernamen, Benutzerpfade oder andere persönliche Daten eintragen.
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: z. B. 0.9.9
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tablet
+    attributes:
+      label: Tablet
+      options:
+        - iPad
+        - Android-Tablet
+        - Anderes Gerät
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problembeschreibung
+      description: Was ist passiert und was wurde erwartet?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      description: Windows-Version, Browser und relevante Audiohardware – ohne persönliche Daten.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutzprüfung
+      options:
+        - label: Ich habe Pairing-Code, echte IP-Adresse, Rechnername und Benutzerpfade entfernt.
+          required: true
