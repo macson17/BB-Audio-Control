@@ -22,19 +22,16 @@ offiziellen Repository verwenden.
 
 ## Screenshots
 
-### Responsive Oberfläche — 0.10.0 Beta
+### Oberfläche — 0.10.0 Beta
 
-![Großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
-![Kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
+### Smartphone
 ![Smartphone im Hochformat](screenshots/v0.10.0-phone-portrait.png)
 ![Smartphone im Querformat](screenshots/v0.10.0-phone-landscape.png)
 
-### Mixer
-
+## Tablet
+![Großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
+![Kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
 ![BB Audio Control mit mehreren Programmen](screenshots/mixer.png)
-
-### Bearbeiten-Modus
-
 ![Bearbeiten-Modus von BB Audio Control](screenshots/edit-mode.png)
 
 <details>
