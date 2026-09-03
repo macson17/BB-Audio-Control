@@ -1,11 +1,11 @@
-# BB Audio Control v0.9.9 Beta – Installation
+# BB Audio Control 0.10.0 Beta – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest)
-   die Datei `BB-Audio-Control-Setup-v0.9.9.exe` herunterladen.
+1. Unter [Pre-Release 0.10.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.10.0)
+   die Datei `BB-Audio-Control-Setup-v0.10.0.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -19,7 +19,7 @@
 Die App installiert sich für den aktuellen Windows-Benutzer. Eine separate
 .NET-Installation ist nicht notwendig.
 
-## Tablet verbinden
+## Tablet oder Smartphone verbinden
 
 1. PC und Tablet mit demselben privaten Netzwerk verbinden.
 2. Das BB-Audio-Control-Einstellungsfenster am PC öffnen. Dazu das Symbol neben
@@ -33,20 +33,34 @@ Der QR-Code enthält nur die lokale Adresse und nicht den Pairing-Code.
 
 ## Grundbedienung
 
-- Der große linke Fader steuert die Gesamtlautstärke.
-- Die Ausgangstasten wechseln den Windows-Standardausgang.
+- Auf Tablets steuert der große linke Fader die Gesamtlautstärke; auf Smartphones liegt er horizontal.
+- Auf Tablets wechseln Ausgangstasten den Windows-Standardausgang; auf Smartphones öffnet langes Drücken auf Sound die Ausgangswahl.
 - „Sound“ schaltet die Gesamtausgabe stumm oder wieder ein.
 - Ein kurzer Druck auf die Mikrofon-Taste schaltet das Mikrofon stumm.
 - Ein langer Druck auf die Mikrofon-Taste öffnet die Eingangsauswahl.
 - Programmfader steuern aktive Windows-Audio-Sessions.
-- Unter „Bearbeiten“ lassen sich Ausgänge und Programme anpassen.
+- Auf Tablets lassen sich unter „Bearbeiten“ Ausgänge und Programme anpassen. Auf Smartphones enthält das Menü Programm- und Darstellungsoptionen, keine Ausgangskachel-Bearbeitung.
 - Unter „Darstellung“ lassen sich Sprache, Hintergrund und Faderfarbe ändern.
 
 Programme werden erst angezeigt, nachdem Windows für sie eine aktive
 Audio-Session erkannt hat. Falls ein Programm fehlt, dort zunächst Ton
 abspielen.
 
+Smartphones blenden CPU-/GPU-/RAM-Werte und einzelne Ausgangsbuttons aus.
+Hoch- und Querformat werden unterstützt. Maximal fünf Programmzeilen ohne
+Prozess-ID sowie globale und individuelle Faderfarben bleiben erhalten.
+Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
+
 ## Update
+
+0.10.0 Beta kann 0.9.9 aktualisieren. Ein lokales Windows-Upgrade wurde
+erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
+dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
+Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
+laden und auf **v0.10.0 Beta** unter dem Logo achten.
+
+Nach Nutzerprüfung ist die Darstellung auf iPad, iPhone 16 Pro und Samsung
+Galaxy S21 Ultra erfolgreich geprüft. Der TABWEE-T80-Betatest steht noch aus.
 
 Eine neue Setup-Datei über die vorhandene Installation ausführen. Das Setup
 beendet die laufende App, ersetzt die Programmdateien und startet anschließend

@@ -1,8 +1,10 @@
 # BB Audio Control
 
+Aktuelle Testversion: **0.10.0 Beta** (Pre-Release).
+
 [English](README.md) | [Deutsch](README-DE.md)
 
-BB Audio Control macht ein iPad oder Android-Tablet im lokalen Netzwerk zu
+BB Audio Control macht ein iPad, Android-Tablet oder Smartphone im lokalen Netzwerk zu
 einem übersichtlichen Audiomischpult für einen Windows-PC. Lautstärke,
 Stummschaltung, Audioausgänge und Mikrofon lassen sich bedienen, ohne das
 aktuelle Spiel oder Programm zu verlassen.
@@ -14,11 +16,22 @@ aktuelle Spiel oder Programm zu verlassen.
 ## Download
 
 Die aktuelle Testversion steht unter
-[GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest)
+[Pre-Release 0.10.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.10.0)
 als einzelne Setup-Datei bereit. Bitte ausschließlich Dateien aus diesem
 offiziellen Repository verwenden.
 
 ## Screenshots
+
+### Responsive Oberfläche — 0.10.0 Beta
+
+Die Screenshots zeigen ausschließlich neutrale Beispieldaten, keine persönlichen Gerätedaten.
+
+![Großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
+![Kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
+![Smartphone im Hochformat](screenshots/v0.10.0-phone-portrait.png)
+![Smartphone im Querformat](screenshots/v0.10.0-phone-landscape.png)
+
+Die bisherigen Screenshots bleiben darunter als Referenz erhalten.
 
 ### Mixer
 
@@ -54,21 +67,21 @@ offiziellen Repository verwenden.
 - Fünf Hintergrunddesigns
 - Deutsch und Englisch
 - PIN-Kopplung und lokaler QR-Code
-- CPU-, GPU- und RAM-Anzeige, soweit vom System unterstützt
+- CPU-, GPU- und RAM-Anzeige auf Tablets, soweit vom System unterstützt
 - Direkte Bedienreaktion über WebSocket im lokalen Netzwerk
 
 ## Voraussetzungen
 
 - Windows 10 ab Build 19041 oder Windows 11
 - 64-Bit-Windows auf einem x64-kompatiblen System
-- iPad oder Android-Tablet im Querformat
+- iPad oder Android-Tablet; Smartphone im Hoch- oder Querformat
 - PC und Tablet im selben erreichbaren privaten Netzwerk
 
 Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. Die aktuelle `BB-Audio-Control-Setup-v0.9.9.exe` aus den Releases laden.
+1. `BB-Audio-Control-Setup-v0.10.0.exe` aus dem Pre-Release laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
@@ -104,6 +117,18 @@ in einem vertrauenswürdigen privaten Netzwerk verwendet werden.
 Weitere Hinweise stehen in [SECURITY-DE.md](SECURITY-DE.md).
 
 ## Bekannte Einschränkungen
+
+Die Darstellung wurde nach Nutzerprüfung auf **iPad, iPhone 16 Pro und Samsung
+Galaxy S21 Ultra erfolgreich geprüft**. Der **TABWEE-T80-Betatest steht noch
+aus**. Das bestätigt die Darstellung, nicht sämtliche Audio-, Hardware- oder PWA-Funktionen.
+
+Smartphones zeigen keine Ausgangskacheln und keine CPU-/GPU-/RAM-Werte.
+Sound lang öffnet die Ausgangswahl, kurz schaltet weiterhin stumm/ein.
+Mikrofon lang öffnet weiterhin die Eingangswahl. Der Hauptfader ist horizontal;
+das Bearbeiten-Menü enthält relevante Programm- und Darstellungsfunktionen.
+Tablet-Bedienung, maximal fünf Programmzeilen ohne Prozess-ID sowie globale
+und individuelle Faderfarben bleiben erhalten. Bei geringer Höhe kann
+vertikales Scrollen nötig sein. Siehe [Änderungsprotokoll](CHANGELOG-DE.md).
 
 - Snapdragon-/ARM-Systeme sind noch nicht abschließend getestet.
 - GPU-Auslastung und GPU-Temperatur hängen von Windows und dem Grafiktreiber ab.

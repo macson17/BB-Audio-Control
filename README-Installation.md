@@ -1,11 +1,11 @@
-# BB Audio Control v0.9.9 Beta — Installation
+# BB Audio Control 0.10.0 Beta — Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.9.9.exe` from
-   [GitHub Releases](https://github.com/macson17/BB-Audio-Control/releases/latest).
+1. Download `BB-Audio-Control-Setup-v0.10.0.exe` from
+   [the pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.10.0).
 2. Double-click the setup file.
 3. Select German or English.
 4. If Windows SmartScreen displays "Unknown publisher," select "More info"
@@ -19,7 +19,7 @@
 The app is installed for the current Windows user. A separate .NET installation
 is not required.
 
-## Connect a tablet
+## Connect a tablet or smartphone
 
 1. Connect the PC and tablet to the same private network.
 2. Open the BB Audio Control settings window on the PC by double-clicking its
@@ -33,19 +33,32 @@ The QR code contains only the local address, not the pairing code.
 
 ## Basic controls
 
-- The large fader on the left controls the master volume.
-- The output buttons change the Windows default audio output.
+- On tablets, the large fader on the left controls the master volume; on phones it is horizontal.
+- On tablets, output buttons change the Windows default audio output; on phones, hold Sound to open the output selection.
 - The Sound button mutes or unmutes all output.
 - A short press on the microphone button mutes or unmutes the microphone.
 - Holding the microphone button opens the input selection.
 - Application faders control active Windows audio sessions.
-- Edit mode lets you customize outputs and applications.
+- Tablet Edit mode lets you customize outputs and applications. Phone Edit mode contains program and appearance options, without output-tile editing.
 - Appearance settings control the language, background, and fader color.
 
 Applications appear only after Windows detects an active audio session. If an
 application is missing, play some audio in it first.
 
+Phones hide CPU/GPU/RAM information and individual output buttons. Both phone
+orientations are supported. Up to five program rows are shown, without process
+IDs; global and individual fader colors remain available. Very short viewports
+may scroll vertically.
+
 ## Update
+
+0.10.0 Beta can update 0.9.9. One local Windows upgrade completed successfully
+and kept settings, including the pairing code, byte-for-byte after startup.
+This is not a guarantee for every PC. Check the startup option during setup.
+Reload the mobile page afterwards and check for **v0.10.0 Beta** below the logo.
+
+Display checks reported by the user passed on iPad, iPhone 16 Pro, and Samsung
+Galaxy S21 Ultra. TABWEE T80 remains a pending beta test.
 
 Run a new setup file over the existing installation. Setup closes the running
 app, replaces its program files, and can restart the new version afterwards.
