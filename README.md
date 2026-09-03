@@ -4,7 +4,7 @@ Current test version: **0.10.0 Beta** (pre-release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
-BB Audio Control turns an iPad, Android tablet, or smartphone on your local network into a
+BB Audio Control turns tablets and smartphones on your local network into a
 clean audio mixer for a Windows PC. Control volume, mute states, audio outputs,
 and the microphone without leaving your current game or application.
 
@@ -20,23 +20,16 @@ page. Only download files from this official repository.
 
 ## Screenshots
 
-### Responsive interface — 0.10.0 Beta
+### Interface — 0.10.0 Beta
 
-These screenshots use synthetic example data, not personal device data.
-
-![Large tablet layout](screenshots/v0.10.0-tablet.png)
-![Compact tablet layout](screenshots/v0.10.0-compact-tablet.png)
+### Smartphone
 ![Phone portrait layout](screenshots/v0.10.0-phone-portrait.png)
 ![Phone landscape layout](screenshots/v0.10.0-phone-landscape.png)
 
-The earlier screenshots below remain available for reference.
-
-### Mixer
-
+### Tablet
+![Large tablet layout](screenshots/v0.10.0-tablet.png)
+![Compact tablet layout](screenshots/v0.10.0-compact-tablet.png)
 ![BB Audio Control mixer with multiple applications](screenshots/mixer.png)
-
-### Edit mode
-
 ![BB Audio Control edit mode](screenshots/edit-mode.png)
 
 <details>
@@ -72,7 +65,7 @@ The earlier screenshots below remain available for reference.
 
 - Windows 10 build 19041 or later, or Windows 11
 - 64-bit Windows on an x64-compatible system
-- iPad or Android tablet; smartphone in portrait or landscape orientation
+- Tablet or smartphone with a current web browser
 - PC and tablet on the same reachable private network
 
 No separate .NET runtime installation is required on the target PC.
@@ -114,20 +107,13 @@ See [SECURITY.md](SECURITY.md) for details.
 
 ## Known limitations
 
-User-reported display checks passed on **iPad, iPhone 16 Pro, and Samsung
-Galaxy S21 Ultra**. The **TABWEE T80 beta test is still pending**. These are
-display checks, not a claim that every audio, hardware, or PWA scenario was tested.
-
-Phones hide output tiles and CPU/GPU/RAM metrics. Hold Sound to choose an
-output; tap Sound to mute/unmute. Holding Microphone still selects the input.
-The phone master fader is horizontal; its Edit menu contains relevant program
-and appearance settings. Tablet controls, up to five program rows without
-process IDs, and global/per-program fader colors are retained. Short viewports
-may require vertical scrolling. See the [changelog](CHANGELOG.md).
-
 - Snapdragon/ARM systems have not yet been fully tested.
 - GPU usage and temperature depend on Windows and the graphics driver.
 - `– °C` means that no supported temperature value is available.
+- Phones do not display output tiles or CPU, GPU, and RAM information.
+- On phones, holding Sound opens the output selection; tapping it mutes or
+  unmutes the sound.
+- Short viewports may require vertical scrolling.
 - A maximum of five applications can be displayed at the same time.
 - Applications appear only after Windows reports an active audio session.
 - Guest-network isolation, VPN software, or a firewall may block the tablet
@@ -135,6 +121,8 @@ may require vertical scrolling. See the [changelog](CHANGELOG.md).
 - The local PC address may change after switching networks.
 - The installer is not digitally signed yet.
 - Automatic updates are not available yet.
+
+See the [changelog](CHANGELOG.md) for further changes.
 
 ## Issues and feature requests
 
