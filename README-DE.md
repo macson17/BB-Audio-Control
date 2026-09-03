@@ -4,8 +4,8 @@ Aktuelle Testversion: **0.10.0 Beta** (Pre-Release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
-BB Audio Control macht ein iPad, Android-Tablet oder Smartphone im lokalen Netzwerk zu
-einem übersichtlichen Audiomischpult für einen Windows-PC. Lautstärke,
+BB Audio Control macht Tablets und Smartphones im lokalen Netzwerk zu einem
+übersichtlichen Audiomischpult für einen Windows-PC. Lautstärke,
 Stummschaltung, Audioausgänge und Mikrofon lassen sich bedienen, ohne das
 aktuelle Spiel oder Programm zu verlassen.
 
@@ -24,14 +24,10 @@ offiziellen Repository verwenden.
 
 ### Responsive Oberfläche — 0.10.0 Beta
 
-Die Screenshots zeigen ausschließlich neutrale Beispieldaten, keine persönlichen Gerätedaten.
-
 ![Großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
 ![Kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
 ![Smartphone im Hochformat](screenshots/v0.10.0-phone-portrait.png)
 ![Smartphone im Querformat](screenshots/v0.10.0-phone-landscape.png)
-
-Die bisherigen Screenshots bleiben darunter als Referenz erhalten.
 
 ### Mixer
 
@@ -74,7 +70,7 @@ Die bisherigen Screenshots bleiben darunter als Referenz erhalten.
 
 - Windows 10 ab Build 19041 oder Windows 11
 - 64-Bit-Windows auf einem x64-kompatiblen System
-- iPad oder Android-Tablet; Smartphone im Hoch- oder Querformat
+- Tablet oder Smartphone mit einem aktuellen Webbrowser
 - PC und Tablet im selben erreichbaren privaten Netzwerk
 
 Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
@@ -118,27 +114,21 @@ Weitere Hinweise stehen in [SECURITY-DE.md](SECURITY-DE.md).
 
 ## Bekannte Einschränkungen
 
-Die Darstellung wurde nach Nutzerprüfung auf **iPad, iPhone 16 Pro und Samsung
-Galaxy S21 Ultra erfolgreich geprüft**. Der **TABWEE-T80-Betatest steht noch
-aus**. Das bestätigt die Darstellung, nicht sämtliche Audio-, Hardware- oder PWA-Funktionen.
-
-Smartphones zeigen keine Ausgangskacheln und keine CPU-/GPU-/RAM-Werte.
-Sound lang öffnet die Ausgangswahl, kurz schaltet weiterhin stumm/ein.
-Mikrofon lang öffnet weiterhin die Eingangswahl. Der Hauptfader ist horizontal;
-das Bearbeiten-Menü enthält relevante Programm- und Darstellungsfunktionen.
-Tablet-Bedienung, maximal fünf Programmzeilen ohne Prozess-ID sowie globale
-und individuelle Faderfarben bleiben erhalten. Bei geringer Höhe kann
-vertikales Scrollen nötig sein. Siehe [Änderungsprotokoll](CHANGELOG-DE.md).
-
 - Snapdragon-/ARM-Systeme sind noch nicht abschließend getestet.
 - GPU-Auslastung und GPU-Temperatur hängen von Windows und dem Grafiktreiber ab.
 - `– °C` bedeutet, dass kein unterstützter Temperaturwert bereitgestellt wird.
+- Smartphones zeigen keine Ausgangskacheln und keine CPU-, GPU- oder RAM-Werte.
+- Auf Smartphones öffnet langes Drücken auf „Sound“ die Ausgangswahl; kurzes
+  Drücken schaltet den Ton stumm oder wieder ein.
+- Bei geringer Displayhöhe kann vertikales Scrollen erforderlich sein.
 - Es werden maximal fünf Programme gleichzeitig angezeigt.
 - Programme erscheinen erst, wenn Windows eine aktive Audio-Session meldet.
 - Gastnetz-Isolation, VPN oder Firewall können die Tablet-Verbindung blockieren.
 - Die lokale PC-Adresse kann sich nach einem Netzwerkwechsel ändern.
 - Der Installer ist noch nicht digital signiert.
 - Es gibt noch keine automatische Updatefunktion.
+
+Weitere Änderungen sind im [Änderungsprotokoll](CHANGELOG-DE.md) aufgeführt.
 
 ## Probleme und Wünsche
 
