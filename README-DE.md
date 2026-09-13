@@ -1,6 +1,6 @@
 # BB Audio Control
 
-Aktuelle Testversion: **0.10.0 Beta** (Pre-Release).
+Aktuelle Testversion: **0.11.0 Beta** (Pre-Release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
@@ -16,26 +16,35 @@ aktuelle Spiel oder Programm zu verlassen.
 ## Download
 
 Die aktuelle Testversion steht unter
-[Pre-Release 0.10.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.10.0)
+[Pre-Release 0.11.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0)
 als einzelne Setup-Datei bereit. Bitte ausschließlich Dateien aus diesem
 offiziellen Repository verwenden.
 
 ## Screenshots
 
-### Oberfläche — 0.10.0 Beta
+### Tablet-Oberfläche — 0.11.0 Beta
+
+Die aktuelle Galerie beginnt mit der abgenommenen Tablet-Oberfläche.
+
+![Tablet-Mixer mit Mediensteuerung](screenshots/v0.11.0-tablet-main.png)
+![Programm-Mute auf dem Tablet](screenshots/v0.11.0-tablet-app-mute.png)
+![Audioausgang pro App auswählen](screenshots/v0.11.0-tablet-app-output.png)
+![Bearbeiten-Modus auf dem Tablet](screenshots/v0.11.0-tablet-edit.png)
 
 ### Smartphone
+
 ![Smartphone im Hochformat](screenshots/v0.10.0-phone-portrait.png)
 ![Smartphone im Querformat](screenshots/v0.10.0-phone-landscape.png)
 
-## Tablet
+<details>
+<summary>Frühere Ansichten anzeigen</summary>
+
+### Frühere Tablet-Ansichten
+
 ![Großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
 ![Kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
 ![BB Audio Control mit mehreren Programmen](screenshots/mixer.png)
 ![Bearbeiten-Modus von BB Audio Control](screenshots/edit-mode.png)
-
-<details>
-<summary>Weitere Ansichten anzeigen</summary>
 
 ### Hintergrundauswahl
 
@@ -49,9 +58,11 @@ offiziellen Repository verwenden.
 
 ## Funktionen
 
-- Master-Lautstärke und Master-Mute
+- Master-Lautstärke und Master-Mute über alle aktiven Ausgänge mit Wiederherstellung der vorherigen Mute-Zustände
 - Lautstärke und Mute je aktivem Programm und Audioausgang
 - Wechsel des Windows-Standardausgangs
+- Optionaler Audioausgang pro App durch Antippen des App-Icons; Systemstandard folgt weiterhin den Hauptausgangstasten
+- Mediensteuerung der aktiven Windows-Mediensitzung mit Vor, Zurück und statusabhängigem Play/Pause; damit lässt sich auch YouTube im Browser pausieren
 - Mikrofon stumm- und einschalten
 - Mikrofoneingang durch langen Druck auf die Mikrofon-Taste wechseln
 - Bis zu fünf frei sortier- und ausblendbare Programme
@@ -74,7 +85,7 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v0.10.0.exe` aus dem Pre-Release laden.
+1. `BB-Audio-Control-Setup-v0.11.0.exe` aus dem Pre-Release laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
@@ -110,6 +121,14 @@ in einem vertrauenswürdigen privaten Netzwerk verwendet werden.
 Weitere Hinweise stehen in [SECURITY-DE.md](SECURITY-DE.md).
 
 ## Bekannte Einschränkungen
+
+Die Darstellung wurde nach Nutzerprüfung auf **iPad, iPhone 16 Pro und Samsung
+Galaxy S21 Ultra erfolgreich geprüft**. Der **TABWEE-T80-Betatest steht noch
+aus**. Das bestätigt die Darstellung, nicht sämtliche Audio-, Hardware- oder PWA-Funktionen.
+
+Auf Tablets erscheinen Titel und Interpret sowie die Mediensteuerung der aktiven
+Windows-Mediensitzung. Ein Tipp auf das App-Icon öffnet die optionale
+Audioausgangswahl. Auf Smartphones bleibt die komplette Musiksektion verborgen.
 
 - Snapdragon-/ARM-Systeme sind noch nicht abschließend getestet.
 - GPU-Auslastung und GPU-Temperatur hängen von Windows und dem Grafiktreiber ab.

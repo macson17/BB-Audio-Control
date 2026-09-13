@@ -1,11 +1,11 @@
-# BB Audio Control 0.10.0 Beta – Installation
+# BB Audio Control 0.11.0 Beta – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Pre-Release 0.10.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.10.0)
-   die Datei `BB-Audio-Control-Setup-v0.10.0.exe` herunterladen.
+1. Unter [Pre-Release 0.11.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0)
+   die Datei `BB-Audio-Control-Setup-v0.11.0.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -35,10 +35,12 @@ Der QR-Code enthält nur die lokale Adresse und nicht den Pairing-Code.
 
 - Auf Tablets steuert der große linke Fader die Gesamtlautstärke; auf Smartphones liegt er horizontal.
 - Auf Tablets wechseln Ausgangstasten den Windows-Standardausgang; auf Smartphones öffnet langes Drücken auf Sound die Ausgangswahl.
-- „Sound“ schaltet die Gesamtausgabe stumm oder wieder ein.
+- „Sound“ schaltet alle aktiven Ausgänge stumm und stellt deren vorherige Mute-Zustände wieder her.
 - Ein kurzer Druck auf die Mikrofon-Taste schaltet das Mikrofon stumm.
 - Ein langer Druck auf die Mikrofon-Taste öffnet die Eingangsauswahl.
-- Programmfader steuern aktive Windows-Audio-Sessions.
+- Programmfader steuern aktive Windows-Audio-Sessions auf ihrem zugewiesenen Ausgang.
+- Ein Tipp auf das App-Icon öffnet die optionale Ausgangswahl. „Systemstandard“ folgt weiter den Hauptausgangstasten.
+- Die Medientasten auf Tablets steuern die aktive Windows-Mediensitzung. Damit lassen sich Musik-Apps sowie YouTube im Browser pausieren.
 - Auf Tablets lassen sich unter „Bearbeiten“ Ausgänge und Programme anpassen. Auf Smartphones enthält das Menü Programm- und Darstellungsoptionen, keine Ausgangskachel-Bearbeitung.
 - Unter „Darstellung“ lassen sich Sprache, Hintergrund und Faderfarbe ändern.
 
@@ -53,11 +55,11 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-0.10.0 Beta kann 0.9.9 aktualisieren. Ein lokales Windows-Upgrade wurde
+0.11.0 Beta kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v0.10.0 Beta** unter dem Logo achten.
+laden und auf **v0.11.0 Beta** unter dem Logo achten.
 
 Nach Nutzerprüfung ist die Darstellung auf iPad, iPhone 16 Pro und Samsung
 Galaxy S21 Ultra erfolgreich geprüft. Der TABWEE-T80-Betatest steht noch aus.

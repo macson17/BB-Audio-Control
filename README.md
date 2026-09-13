@@ -1,6 +1,6 @@
 # BB Audio Control
 
-Current test version: **0.10.0 Beta** (pre-release).
+Current test version: **0.11.0 Beta** (pre-release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
@@ -15,25 +15,34 @@ and the microphone without leaving your current game or application.
 ## Download
 
 The latest test version is available as a single setup file on the
-[0.10.0 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.10.0)
+[0.11.0 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0)
 page. Only download files from this official repository.
 
 ## Screenshots
 
-### Interface — 0.10.0 Beta
+### Tablet interface — 0.11.0 Beta
+
+The current gallery starts with the approved tablet interface.
+
+![Tablet mixer and media controls](screenshots/v0.11.0-tablet-main.png)
+![Per-application mute on the tablet](screenshots/v0.11.0-tablet-app-mute.png)
+![Per-application output selection](screenshots/v0.11.0-tablet-app-output.png)
+![Tablet Edit mode](screenshots/v0.11.0-tablet-edit.png)
 
 ### Smartphone
+
 ![Phone portrait layout](screenshots/v0.10.0-phone-portrait.png)
 ![Phone landscape layout](screenshots/v0.10.0-phone-landscape.png)
 
-### Tablet
+<details>
+<summary>Earlier interface views</summary>
+
+### Earlier tablet views
+
 ![Large tablet layout](screenshots/v0.10.0-tablet.png)
 ![Compact tablet layout](screenshots/v0.10.0-compact-tablet.png)
 ![BB Audio Control mixer with multiple applications](screenshots/mixer.png)
 ![BB Audio Control edit mode](screenshots/edit-mode.png)
-
-<details>
-<summary>More interface views</summary>
 
 ### Background selection
 
@@ -47,9 +56,11 @@ page. Only download files from this official repository.
 
 ## Features
 
-- Master volume and master mute
+- Master volume and master mute across active outputs, restoring their previous mute states
 - Per-application volume and mute for each audio output
 - Switch the Windows default audio output
+- Select an optional output for an application by tapping its app icon; System default continues to follow the main output buttons
+- Control the active Windows media session with previous, next, and state-aware play/pause controls; this can also pause YouTube in a browser
 - Mute and unmute the microphone
 - Change the microphone input by holding the microphone button
 - Show, hide, and reorder up to five applications
@@ -72,7 +83,7 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.10.0.exe` from the pre-release.
+1. Download `BB-Audio-Control-Setup-v0.11.0.exe` from the pre-release.
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.
@@ -106,6 +117,14 @@ network. Only use the application on a trusted private network.
 See [SECURITY.md](SECURITY.md) for details.
 
 ## Known limitations
+
+User-reported display checks passed on **iPad, iPhone 16 Pro, and Samsung
+Galaxy S21 Ultra**. The **TABWEE T80 beta test is still pending**. These are
+display checks, not a claim that every audio, hardware, or PWA scenario was tested.
+
+On tablets, title and artist information plus media controls are shown for the
+active Windows media session. Tap an application's icon to choose its optional
+audio output. The complete media section remains hidden on phones.
 
 - Snapdragon/ARM systems have not yet been fully tested.
 - GPU usage and temperature depend on Windows and the graphics driver.

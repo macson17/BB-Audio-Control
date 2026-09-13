@@ -2,6 +2,21 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 0.11.0 Beta — 2026-09-13
+
+Pre-release for further testing, not a stable/final release.
+
+- Tablet media controls for the active Windows media session show title and artist and provide previous, next, and state-aware play/pause. This can also pause YouTube in a browser.
+- Tap an application's icon to select an optional output; System default continues to follow the main output buttons.
+- Per-application faders and mute operate on the assigned output.
+- Master Sound mute covers all active outputs and restores their preceding mute states.
+- Larger, lower media controls on tablets; the complete media section remains hidden on phones.
+- Existing responsive tablet/phone layouts, pairing, WebSocket control, settings migration and the five-program limit are retained.
+
+Windows x64 release/installer build, upgrade over 0.10.4, byte-identical settings
+retention, 18 installed release files and isolated browser checks passed. The
+installer contains no digital signature.
+
 ## 0.10.0 Beta — 2026-09-03
 
 Pre-release for further testing, not a stable/final release.

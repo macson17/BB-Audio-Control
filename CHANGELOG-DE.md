@@ -2,6 +2,21 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 0.11.0 Beta — 2026-09-13
+
+Pre-Release für weitere Tests, keine stabile oder endgültige Version.
+
+- Tablet-Mediensteuerung der aktiven Windows-Mediensitzung mit Titel, Interpret, Vor, Zurück und statusabhängigem Play/Pause; damit lässt sich auch YouTube im Browser pausieren.
+- Ein Tipp auf das App-Icon öffnet die optionale Ausgangswahl; „Systemstandard“ folgt weiter den Hauptausgangstasten.
+- Programmfader und Programm-Mute wirken auf den zugewiesenen Ausgang.
+- Der globale Sound-Mute umfasst alle aktiven Ausgänge und stellt deren vorherige Mute-Zustände wieder her.
+- Größere, tiefer angeordnete Mediensteuerung auf Tablets; auf Smartphones bleibt die Musiksektion vollständig verborgen.
+- Responsive Tablet-/Smartphone-Layouts, Pairing, WebSocket-Steuerung, Einstellungserhalt und die Begrenzung auf fünf Programme bleiben erhalten.
+
+Windows-x64-Release-/Installer-Build, Upgrade über 0.10.4, bytegenauer
+Einstellungserhalt, 18 installierte Release-Dateien und isolierte Browserchecks
+bestanden. Der Installer ist nicht digital signiert.
+
 ## 0.10.0 Beta — 2026-09-03
 
 Pre-Release für weitere Tests, keine stabile oder endgültige Version.
