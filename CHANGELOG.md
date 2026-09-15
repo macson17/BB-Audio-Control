@@ -2,6 +2,16 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 0.11.1 Beta — 2026-09-15
+
+Pre-release for further testing, not a stable/final release.
+
+- The normal tablet interface no longer scrolls on short iPad viewports.
+- Media buttons match application mute buttons and keep their position without active media.
+- The Windows settings window lists all active local IPv4 addresses; its QR code, copy, and browser actions follow the selected address.
+- GPU monitoring retries failed Windows counter initialization and includes render-only or hybrid adapters. AMD hardware testing is still pending.
+- The local Windows upgrade, settings retention, 18 installed release files, iPad correction, and network selection were confirmed.
+
 ## 0.11.0 Beta — 2026-09-13
 
 Pre-release for further testing, not a stable/final release.

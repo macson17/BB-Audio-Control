@@ -1,6 +1,6 @@
 # BB Audio Control
 
-Aktuelle Testversion: **0.11.0 Beta** (Pre-Release).
+Aktuelle Testversion: **0.11.1 Beta** (Pre-Release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
@@ -16,7 +16,7 @@ aktuelle Spiel oder Programm zu verlassen.
 ## Download
 
 Die aktuelle Testversion steht unter
-[Pre-Release 0.11.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0)
+[Pre-Release 0.11.1 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.1)
 als einzelne Setup-Datei bereit. Bitte ausschließlich Dateien aus diesem
 offiziellen Repository verwenden.
 
@@ -73,6 +73,7 @@ Die aktuelle Galerie beginnt mit der abgenommenen Tablet-Oberfläche.
 - PIN-Kopplung und lokaler QR-Code
 - CPU-, GPU- und RAM-Anzeige auf Tablets, soweit vom System unterstützt
 - Direkte Bedienreaktion über WebSocket im lokalen Netzwerk
+- Auswahl aller aktiven lokalen IPv4-Adressen im Windows-Fenster; QR-Code, Kopieren und Browseröffnung folgen der Auswahl
 
 ## Voraussetzungen
 
@@ -85,7 +86,7 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v0.11.0.exe` aus dem Pre-Release laden.
+1. `BB-Audio-Control-Setup-v0.11.1.exe` aus dem Pre-Release laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
@@ -136,7 +137,8 @@ Audioausgangswahl. Auf Smartphones bleibt die komplette Musiksektion verborgen.
 - Smartphones zeigen keine Ausgangskacheln und keine CPU-, GPU- oder RAM-Werte.
 - Auf Smartphones öffnet langes Drücken auf „Sound“ die Ausgangswahl; kurzes
   Drücken schaltet den Ton stumm oder wieder ein.
-- Bei geringer Displayhöhe kann vertikales Scrollen erforderlich sein.
+- Die normale Tablet-Ansicht scrollt nicht; Bearbeiten-Modus und sehr kurze Smartphone-Viewports dürfen bei Bedarf scrollen.
+- Die AMD-GPU-Verbesserungen müssen noch praktisch auf AMD-Hardware getestet werden.
 - Es werden maximal fünf Programme gleichzeitig angezeigt.
 - Programme erscheinen erst, wenn Windows eine aktive Audio-Session meldet.
 - Gastnetz-Isolation, VPN oder Firewall können die Tablet-Verbindung blockieren.

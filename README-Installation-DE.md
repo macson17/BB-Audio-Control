@@ -1,11 +1,11 @@
-# BB Audio Control 0.11.0 Beta – Installation
+# BB Audio Control 0.11.1 Beta – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Pre-Release 0.11.0 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0)
-   die Datei `BB-Audio-Control-Setup-v0.11.0.exe` herunterladen.
+1. Unter [Pre-Release 0.11.1 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.1)
+   die Datei `BB-Audio-Control-Setup-v0.11.1.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -24,7 +24,8 @@ Die App installiert sich für den aktuellen Windows-Benutzer. Eine separate
 1. PC und Tablet mit demselben privaten Netzwerk verbinden.
 2. Das BB-Audio-Control-Einstellungsfenster am PC öffnen. Dazu das Symbol neben
    der Windows-Uhr doppelt anklicken.
-3. Den QR-Code mit dem Tablet scannen oder die angezeigte Adresse manuell im
+3. Bei mehreren Netzwerken zuerst die passende lokale IPv4-Adresse auswählen,
+   dann den QR-Code scannen oder diese Adresse manuell im
    Browser öffnen, zum Beispiel `http://192.168.x.x:5179`.
 4. Den im PC-Fenster angezeigten sechsstelligen Pairing-Code eingeben.
 5. Optional die Seite zum Home- beziehungsweise Startbildschirm hinzufügen.
@@ -55,11 +56,11 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-0.11.0 Beta kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades wurden
+0.11.1 Beta kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v0.11.0 Beta** unter dem Logo achten.
+laden und auf **v0.11.1 Beta** unter dem Logo achten.
 
 Nach Nutzerprüfung ist die Darstellung auf iPad, iPhone 16 Pro und Samsung
 Galaxy S21 Ultra erfolgreich geprüft. Der TABWEE-T80-Betatest steht noch aus.

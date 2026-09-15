@@ -2,6 +2,16 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 0.11.1 Beta — 2026-09-15
+
+Pre-Release für weitere Tests, keine stabile oder endgültige Version.
+
+- Die normale Tablet-Oberfläche scrollt auch auf kurzen iPad-Viewports nicht mehr.
+- Medientasten entsprechen farblich den Programm-Mute-Tasten und behalten ohne aktive Medien ihre Position.
+- Das Windows-Einstellungsfenster listet alle aktiven lokalen IPv4-Adressen auf; QR-Code, Kopieren und Browseröffnung folgen der Auswahl.
+- Die GPU-Abfrage wiederholt fehlgeschlagene Windows-Zählerinitialisierungen und berücksichtigt Render-/Hybrid-GPUs. Der AMD-Hardwaretest steht noch aus.
+- Lokales Windows-Upgrade, Einstellungserhalt, 18 installierte Release-Dateien, iPad-Korrektur und Netzwerkauswahl wurden bestätigt.
+
 ## 0.11.0 Beta — 2026-09-13
 
 Pre-Release für weitere Tests, keine stabile oder endgültige Version.

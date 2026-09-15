@@ -1,11 +1,11 @@
-# BB Audio Control 0.11.0 Beta — Installation
+# BB Audio Control 0.11.1 Beta — Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.11.0.exe` from
-   [the pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0).
+1. Download `BB-Audio-Control-Setup-v0.11.1.exe` from
+   [the pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.1).
 2. Double-click the setup file.
 3. Select German or English.
 4. If Windows SmartScreen displays "Unknown publisher," select "More info"
@@ -24,7 +24,8 @@ is not required.
 1. Connect the PC and tablet to the same private network.
 2. Open the BB Audio Control settings window on the PC by double-clicking its
    icon next to the Windows clock.
-3. Scan the QR code with the tablet or manually open the displayed address in
+3. Select the matching local IPv4 address if multiple networks are listed,
+   then scan the QR code or manually open that address in
    the browser, for example `http://192.168.x.x:5179`.
 4. Enter the six-digit pairing code shown in the PC window.
 5. Optionally add the page to the Home screen.
@@ -54,10 +55,10 @@ may scroll vertically.
 
 ## Update
 
-0.11.0 Beta can update an existing installation. Local Windows upgrades completed successfully
+0.11.1 Beta can update an existing installation. Local Windows upgrades completed successfully
 and kept settings, including the pairing code, byte-for-byte after startup.
 This is not a guarantee for every PC. Check the startup option during setup.
-Reload the mobile page afterwards and check for **v0.11.0 Beta** below the logo.
+Reload the mobile page afterwards and check for **v0.11.1 Beta** below the logo.
 
 Display checks reported by the user passed on iPad, iPhone 16 Pro, and Samsung
 Galaxy S21 Ultra. TABWEE T80 remains a pending beta test.

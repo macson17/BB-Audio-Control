@@ -1,6 +1,6 @@
 # BB Audio Control
 
-Current test version: **0.11.0 Beta** (pre-release).
+Current test version: **0.11.1 Beta** (pre-release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
@@ -15,7 +15,7 @@ and the microphone without leaving your current game or application.
 ## Download
 
 The latest test version is available as a single setup file on the
-[0.11.0 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.0)
+[0.11.1 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.1)
 page. Only download files from this official repository.
 
 ## Screenshots
@@ -71,6 +71,7 @@ The current gallery starts with the approved tablet interface.
 - PIN pairing and a locally generated QR code
 - CPU, GPU, and RAM information on tablets where supported by the system
 - Responsive controls over WebSocket on the local network
+- Select any active local IPv4 address in the Windows settings window; QR code, copy, and browser actions follow the selection
 
 ## Requirements
 
@@ -83,7 +84,7 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.11.0.exe` from the pre-release.
+1. Download `BB-Audio-Control-Setup-v0.11.1.exe` from the pre-release.
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.
@@ -132,7 +133,8 @@ audio output. The complete media section remains hidden on phones.
 - Phones do not display output tiles or CPU, GPU, and RAM information.
 - On phones, holding Sound opens the output selection; tapping it mutes or
   unmutes the sound.
-- Short viewports may require vertical scrolling.
+- The normal tablet view does not scroll; Edit mode and very short phone viewports may scroll when necessary.
+- AMD GPU monitoring improvements still require practical AMD hardware testing.
 - A maximum of five applications can be displayed at the same time.
 - Applications appear only after Windows reports an active audio session.
 - Guest-network isolation, VPN software, or a firewall may block the tablet
