@@ -2,6 +2,15 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 0.11.2 Beta — 2026-09-15
+
+Pre-release for the targeted AMD GPU temperature test, not a stable/final release.
+
+- GPU adapters are additionally enumerated directly through `D3DKMTEnumAdapters2` and opened by their Windows LUID.
+- Every physical adapter index reported by Windows is checked for a plausible temperature.
+- The existing display-device path and NVIDIA NVML fallback remain available.
+- The official Windows x64 release and installer builds completed without compiler warnings or errors. The application result on the diagnosed AMD Radeon 780M remains to be tested.
+
 ## 0.11.1 Beta — 2026-09-15
 
 Pre-release for further testing, not a stable/final release.

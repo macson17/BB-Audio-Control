@@ -1,6 +1,6 @@
 # BB Audio Control
 
-Current test version: **0.11.1 Beta** (pre-release).
+Current test version: **0.11.2 Beta** (pre-release).
 
 [English](README.md) | [Deutsch](README-DE.md)
 
@@ -15,7 +15,7 @@ and the microphone without leaving your current game or application.
 ## Download
 
 The latest test version is available as a single setup file on the
-[0.11.1 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.1)
+[0.11.2 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.2)
 page. Only download files from this official repository.
 
 ## Screenshots
@@ -84,7 +84,7 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.11.1.exe` from the pre-release.
+1. Download `BB-Audio-Control-Setup-v0.11.2.exe` from the pre-release.
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.
@@ -134,7 +134,7 @@ audio output. The complete media section remains hidden on phones.
 - On phones, holding Sound opens the output selection; tapping it mutes or
   unmutes the sound.
 - The normal tablet view does not scroll; Edit mode and very short phone viewports may scroll when necessary.
-- AMD GPU monitoring improvements still require practical AMD hardware testing.
+- Version 0.11.2 uses direct Windows D3DKMT adapter enumeration for GPU temperatures; practical verification in the application on the diagnosed AMD Radeon 780M is still pending.
 - A maximum of five applications can be displayed at the same time.
 - Applications appear only after Windows reports an active audio session.
 - Guest-network isolation, VPN software, or a firewall may block the tablet

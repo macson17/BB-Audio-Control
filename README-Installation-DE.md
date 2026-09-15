@@ -1,11 +1,11 @@
-# BB Audio Control 0.11.1 Beta – Installation
+# BB Audio Control 0.11.2 Beta – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Pre-Release 0.11.1 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.1)
-   die Datei `BB-Audio-Control-Setup-v0.11.1.exe` herunterladen.
+1. Unter [Pre-Release 0.11.2 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.2)
+   die Datei `BB-Audio-Control-Setup-v0.11.2.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -56,11 +56,11 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-0.11.1 Beta kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades wurden
+0.11.2 Beta kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v0.11.1 Beta** unter dem Logo achten.
+laden und auf **v0.11.2 Beta** unter dem Logo achten.
 
 Nach Nutzerprüfung ist die Darstellung auf iPad, iPhone 16 Pro und Samsung
 Galaxy S21 Ultra erfolgreich geprüft. Der TABWEE-T80-Betatest steht noch aus.
