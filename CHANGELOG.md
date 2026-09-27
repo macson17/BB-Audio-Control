@@ -2,6 +2,30 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.0.0 — 2026-09-27
+
+First stable release.
+
+- Responsive tablet and smartphone layouts, including compact Android tablets.
+- Up to four main output buttons in the normal tablet view and up to five
+  applications with responsive faders.
+- Optional audio output per application by tapping its icon; System default
+  continues to follow the selected main output.
+- Active media controls with artwork, title, artist, previous, next, and
+  immediately responding state-aware play/pause; browser media such as YouTube
+  can also be controlled.
+- Custom fader and background colors with brightness adjustment plus a shared
+  custom background image for paired devices.
+- Redesigned tablet Edit mode and anchored CPU/GPU/RAM strip.
+- AMD GPU temperature support through Windows/D3DKMT, practically verified on
+  a Radeon 780M.
+- Windows x64 build, installer, local upgrade, settings retention, startup,
+  installed files, protected web assets, and final tablet interface verified.
+
+Installer: `BB-Audio-Control-Setup-v1.0.0.exe`
+
+SHA-256: `8DA42AB63AF51D558361A929A3FA11B4E03D4ADD6740649241AE253041DD7A3A`
+
 ## 0.11.2 Beta — 2026-09-15
 
 Pre-release for the targeted AMD GPU temperature test, not a stable/final release.

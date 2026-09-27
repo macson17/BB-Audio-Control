@@ -1,58 +1,83 @@
-# BB Audio Control
+<p align="center">
+  <img src="screenshots/bb-audio-control-logo.png" width="190" alt="BB Audio Control">
+</p>
 
-Aktuelle Testversion: **0.11.2 Beta** (Pre-Release).
+<h1 align="center">BB Audio Control</h1>
 
-[English](README.md) | [Deutsch](README-DE.md)
+<p align="center">
+  <strong>Dein Windows-Audiomischpult auf Tablet und Smartphone.</strong><br>
+  Steuere Lautstärke, Audioausgänge, Mikrofon und Medien direkt über dein lokales Netzwerk.
+</p>
 
-BB Audio Control macht Tablets und Smartphones im lokalen Netzwerk zu einem
-übersichtlichen Audiomischpult für einen Windows-PC. Lautstärke,
-Stummschaltung, Audioausgänge und Mikrofon lassen sich bedienen, ohne das
-aktuelle Spiel oder Programm zu verlassen.
+<p align="center">
+  <img alt="Version 1.0.0" src="https://img.shields.io/badge/Version-1.0.0-ff9f0a?style=for-the-badge">
+  <img alt="Windows 10 und 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
+  <img alt="Lokales Netzwerk ohne Cloud" src="https://img.shields.io/badge/Verbindung-Lokal%20ohne%20Cloud-16b985?style=for-the-badge">
+</p>
 
-> **Beta-Version:** BB Audio Control befindet sich noch in der Testphase. Der
-> aktuelle Installer ist nicht digital signiert. Windows SmartScreen kann
-> deshalb „Unbekannter Herausgeber“ anzeigen.
+<p align="center">
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0"><strong>BB Audio Control 1.0.0 herunterladen</strong></a>
+  · <a href="#installation">Installation</a>
+  · <a href="CHANGELOG-DE.md">Änderungen</a>
+  · <a href="README.md">English</a>
+</p>
 
-## Download
+<p align="center">
+  <img src="screenshots/v1.0.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 auf einem Tablet" width="100%">
+</p>
 
-Die aktuelle Testversion steht unter
-[Pre-Release 0.11.2 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.2)
-als einzelne Setup-Datei bereit. Bitte ausschließlich Dateien aus diesem
-offiziellen Repository verwenden.
+## Ein responsives Mischpult für deinen Windows-PC
 
-## Screenshots
+BB Audio Control macht iPads, Android-Tablets und Smartphones zu einer direkten
+Fernbedienung für den Ton eines Windows-PCs. Ein Cloudkonto ist nicht nötig:
+PC und Mobilgerät kommunizieren unmittelbar im lokalen Netzwerk.
 
-### Tablet-Oberfläche — 0.11.0 Beta
+| Pro App steuern | Audio frei verteilen | Aktive Medien bedienen |
+|---|---|---|
+| Lautstärke und Mute für bis zu fünf aktive Programme | Standardausgang wechseln oder einer einzelnen App einen eigenen Ausgang geben | Titel, Interpret und Cover sehen sowie Spotify, YouTube und andere aktive Medien steuern |
 
-Die aktuelle Galerie beginnt mit der abgenommenen Tablet-Oberfläche.
+## In drei Schritten startklar
 
-![Tablet-Mixer mit Mediensteuerung](screenshots/v0.11.0-tablet-main.png)
-![Programm-Mute auf dem Tablet](screenshots/v0.11.0-tablet-app-mute.png)
-![Audioausgang pro App auswählen](screenshots/v0.11.0-tablet-app-output.png)
-![Bearbeiten-Modus auf dem Tablet](screenshots/v0.11.0-tablet-edit.png)
+1. Den aktuellen Windows-Installer aus dem [Release 1.0.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0) herunterladen und installieren.
+2. BB Audio Control öffnen und den QR-Code mit dem Tablet oder Smartphone scannen.
+3. Die angezeigte sechsstellige PIN eingeben und die Oberfläche auf Wunsch zum Startbildschirm hinzufügen.
 
-### Smartphone
+> [!NOTE]
+> PC und Mobilgerät müssen sich im selben erreichbaren Netzwerk befinden. Die
+> Verbindung bleibt lokal; BB Audio Control benötigt keinen externen Cloud-Dienst.
+
+> [!WARNING]
+> Der Installer ist noch nicht digital signiert. Windows SmartScreen kann
+> „Unbekannter Herausgeber“ anzeigen. Nur Dateien aus diesem Repository verwenden.
+
+## Version 1.0.0 im Überblick
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-app-output.png" alt="Audioausgang für eine einzelne Anwendung wählen"></td>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-edit-mode.png" alt="Ausgänge und Programme im Bearbeiten-Modus anpassen"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Audioausgang pro Anwendung</strong><br>Eine App kann dem Systemstandard oder gezielt einem anderen Gerät folgen.</td>
+    <td align="center"><strong>Frei anpassbare Oberfläche</strong><br>Ausgänge und Programme sortieren, benennen, gestalten oder ausblenden.</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-color-picker.png" alt="Freie Farben und Leuchtkraft"></td>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-background-picker.png" alt="Hintergrundfarbe oder eigenes Bild auswählen"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Farben und Leuchtkraft</strong><br>Vorschläge nutzen oder eigene Farben samt Helligkeit einstellen.</td>
+    <td align="center"><strong>Eigener Hintergrund</strong><br>Vorschlag, freie Farbe oder Bild auf allen gekoppelten Geräten verwenden.</td>
+  </tr>
+</table>
+
+<details>
+<summary>Smartphone und frühere Ansichten</summary>
 
 ![Smartphone im Hochformat](screenshots/v0.10.0-phone-portrait.png)
 ![Smartphone im Querformat](screenshots/v0.10.0-phone-landscape.png)
-
-<details>
-<summary>Frühere Ansichten anzeigen</summary>
-
-### Frühere Tablet-Ansichten
-
-![Großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
-![Kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
-![BB Audio Control mit mehreren Programmen](screenshots/mixer.png)
-![Bearbeiten-Modus von BB Audio Control](screenshots/edit-mode.png)
-
-### Hintergrundauswahl
-
-![Hintergrundauswahl von BB Audio Control](screenshots/backgrounds.png)
-
-### Faderfarbauswahl
-
-![Faderfarbauswahl von BB Audio Control](screenshots/fader-colors.png)
+![Früheres großes Tablet-Layout](screenshots/v0.10.0-tablet.png)
+![Früheres kompaktes Tablet-Layout](screenshots/v0.10.0-compact-tablet.png)
 
 </details>
 
@@ -62,13 +87,16 @@ Die aktuelle Galerie beginnt mit der abgenommenen Tablet-Oberfläche.
 - Lautstärke und Mute je aktivem Programm und Audioausgang
 - Wechsel des Windows-Standardausgangs
 - Optionaler Audioausgang pro App durch Antippen des App-Icons; Systemstandard folgt weiterhin den Hauptausgangstasten
-- Mediensteuerung der aktiven Windows-Mediensitzung mit Vor, Zurück und statusabhängigem Play/Pause; damit lässt sich auch YouTube im Browser pausieren
+- Mediensteuerung der aktiven Windows-Mediensitzung mit Cover, Titel, Interpret,
+  Vor, Zurück und unmittelbar reagierendem statusabhängigem Play/Pause; damit
+  lässt sich auch YouTube im Browser pausieren
 - Mikrofon stumm- und einschalten
 - Mikrofoneingang durch langen Druck auf die Mikrofon-Taste wechseln
 - Bis zu fünf frei sortier- und ausblendbare Programme
-- Global und pro Programm wählbare Faderfarben
+- Global und pro Programm wählbare Faderfarben mit freier Farbe und Leuchtkraft
 - Anpassbare Ausgangsnamen, Symbole und Farben
-- Fünf Hintergrunddesigns
+- Vier Hintergrundvorschläge, freie Hintergrundfarbe mit Leuchtkraft und ein
+  zentral gespeichertes eigenes Hintergrundbild für gekoppelte Geräte
 - Deutsch und Englisch
 - PIN-Kopplung und lokaler QR-Code
 - CPU-, GPU- und RAM-Anzeige auf Tablets, soweit vom System unterstützt
@@ -86,7 +114,8 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v0.11.2.exe` aus dem Pre-Release laden.
+1. `BB-Audio-Control-Setup-v1.0.0.exe` aus dem
+   [Release 1.0.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0) laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
@@ -123,9 +152,9 @@ Weitere Hinweise stehen in [SECURITY-DE.md](SECURITY-DE.md).
 
 ## Bekannte Einschränkungen
 
-Die Darstellung wurde nach Nutzerprüfung auf **iPad, iPhone 16 Pro und Samsung
-Galaxy S21 Ultra erfolgreich geprüft**. Der **TABWEE-T80-Betatest steht noch
-aus**. Das bestätigt die Darstellung, nicht sämtliche Audio-, Hardware- oder PWA-Funktionen.
+Die Darstellung wurde nach Nutzerprüfung auf **iPad, TABWEE T80, iPhone 16 Pro
+und Samsung Galaxy S21 Ultra erfolgreich geprüft**. Das bestätigt die
+Darstellung, nicht sämtliche Audio-, Hardware- oder PWA-Funktionen.
 
 Auf Tablets erscheinen Titel und Interpret sowie die Mediensteuerung der aktiven
 Windows-Mediensitzung. Ein Tipp auf das App-Icon öffnet die optionale
@@ -138,7 +167,9 @@ Audioausgangswahl. Auf Smartphones bleibt die komplette Musiksektion verborgen.
 - Auf Smartphones öffnet langes Drücken auf „Sound“ die Ausgangswahl; kurzes
   Drücken schaltet den Ton stumm oder wieder ein.
 - Die normale Tablet-Ansicht scrollt nicht; Bearbeiten-Modus und sehr kurze Smartphone-Viewports dürfen bei Bedarf scrollen.
-- Version 0.11.2 verwendet die direkte Windows-D3DKMT-Adapterenumeration für GPU-Temperaturen; die praktische Prüfung in der Anwendung auf der diagnostizierten AMD Radeon 780M steht noch aus.
+- Version 1.0.0 verwendet die direkte Windows-D3DKMT-Adapterenumeration für
+  GPU-Temperaturen; der Anwendungspfad wurde auf einer AMD Radeon 780M
+  praktisch bestätigt.
 - Es werden maximal fünf Programme gleichzeitig angezeigt.
 - Programme erscheinen erst, wenn Windows eine aktive Audio-Session meldet.
 - Gastnetz-Isolation, VPN oder Firewall können die Tablet-Verbindung blockieren.

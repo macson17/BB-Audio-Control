@@ -1,11 +1,11 @@
-# BB Audio Control 0.11.2 Beta — Installation
+# BB Audio Control 1.0.0 — Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.11.2.exe` from
-   [the pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.2).
+1. Download `BB-Audio-Control-Setup-v1.0.0.exe` from
+   [the 1.0.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0).
 2. Double-click the setup file.
 3. Select German or English.
 4. If Windows SmartScreen displays "Unknown publisher," select "More info"
@@ -41,9 +41,12 @@ The QR code contains only the local address, not the pairing code.
 - Holding the microphone button opens the input selection.
 - Application faders control active Windows audio sessions on their assigned output.
 - Tap an application's icon to select an optional output. System default keeps following the main output buttons.
-- Tablet media controls operate the active Windows media session. They can control music applications and pause YouTube in a browser.
+- Tablet media controls show available artwork, title, and artist and operate
+  the active Windows media session. They can control music applications and
+  pause YouTube in a browser.
 - Tablet Edit mode lets you customize outputs and applications. Phone Edit mode contains program and appearance options, without output-tile editing.
-- Appearance settings control the language, background, and fader color.
+- Appearance settings control the language, background, custom background
+  image, fader colors, and color brightness.
 
 Applications appear only after Windows detects an active audio session. If an
 application is missing, play some audio in it first.
@@ -55,13 +58,13 @@ may scroll vertically.
 
 ## Update
 
-0.11.2 Beta can update an existing installation. Local Windows upgrades of earlier test versions completed successfully
+1.0.0 can update an existing installation. Local Windows upgrades of earlier test versions completed successfully
 and kept settings, including the pairing code, byte-for-byte after startup.
 This is not a guarantee for every PC. Check the startup option during setup.
-Reload the mobile page afterwards and check for **v0.11.2 Beta** below the logo.
+Reload the mobile page afterwards and check for **v1.0.0** below the logo.
 
-Display checks reported by the user passed on iPad, iPhone 16 Pro, and Samsung
-Galaxy S21 Ultra. TABWEE T80 remains a pending beta test.
+Display checks reported by the user passed on iPad, TABWEE T80, iPhone 16 Pro,
+and Samsung Galaxy S21 Ultra.
 
 Run a new setup file over the existing installation. Setup closes the running
 app, replaces its program files, and can restart the new version afterwards.

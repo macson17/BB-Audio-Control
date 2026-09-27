@@ -1,56 +1,86 @@
-# BB Audio Control
+<p align="center">
+  <img src="screenshots/bb-audio-control-logo.png" width="190" alt="BB Audio Control">
+</p>
 
-Current test version: **0.11.2 Beta** (pre-release).
+<h1 align="center">BB Audio Control</h1>
 
-[English](README.md) | [Deutsch](README-DE.md)
+<p align="center">
+  <strong>Your Windows audio mixer on a tablet or smartphone.</strong><br>
+  Control volume, audio outputs, microphone, and media directly over your local network.
+</p>
 
-BB Audio Control turns tablets and smartphones on your local network into a
-clean audio mixer for a Windows PC. Control volume, mute states, audio outputs,
-and the microphone without leaving your current game or application.
+<p align="center">
+  <img alt="Version 1.0.0" src="https://img.shields.io/badge/Version-1.0.0-ff9f0a?style=for-the-badge">
+  <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
+  <img alt="Local network without cloud" src="https://img.shields.io/badge/Connection-Local%20without%20cloud-16b985?style=for-the-badge">
+</p>
 
-> **Beta:** BB Audio Control is still being tested. The current installer is
-> not digitally signed, so Windows SmartScreen may display an "Unknown
-> publisher" warning.
+<p align="center">
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0"><strong>Download BB Audio Control 1.0.0</strong></a>
+  ·
+  <a href="#installation">Installation</a>
+  ·
+  <a href="CHANGELOG.md">Changelog</a>
+  ·
+  <a href="README-DE.md">Deutsch</a>
+</p>
 
-## Download
+<p align="center">
+  <img src="screenshots/v1.0.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 tablet dashboard" width="100%">
+</p>
 
-The latest test version is available as a single setup file on the
-[0.11.2 Beta pre-release](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.2)
-page. Only download files from this official repository.
+## A responsive mixer for your Windows PC
 
-## Screenshots
+BB Audio Control turns an iPad, Android tablet, or smartphone into a direct
+remote control for a Windows PC. No cloud account is required: the PC and
+mobile device communicate directly on the local network.
 
-### Tablet interface — 0.11.0 Beta
+| Control each application | Route audio freely | Control active media |
+|---|---|---|
+| Adjust volume and mute for up to five active applications | Switch the main output or assign a separate output to an individual app | View title, artist, and artwork and control Spotify, YouTube, and other active media |
 
-The current gallery starts with the approved tablet interface.
+## Get started in three steps
 
-![Tablet mixer and media controls](screenshots/v0.11.0-tablet-main.png)
-![Per-application mute on the tablet](screenshots/v0.11.0-tablet-app-mute.png)
-![Per-application output selection](screenshots/v0.11.0-tablet-app-output.png)
-![Tablet Edit mode](screenshots/v0.11.0-tablet-edit.png)
+1. Download and install the current Windows setup from the [1.0.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0).
+2. Open BB Audio Control and scan the QR code with the tablet or smartphone.
+3. Enter the displayed six-digit PIN and optionally add the interface to the home screen.
 
-### Smartphone
+> [!NOTE]
+> The PC and mobile device must be on the same reachable network. Communication
+> stays local; BB Audio Control does not require an external cloud service.
+
+> [!WARNING]
+> The installer is not digitally signed yet. Windows SmartScreen may display
+> an “Unknown publisher” warning. Only use files downloaded from this repository.
+
+## Version 1.0.0 at a glance
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-app-output.png" alt="Choose an output for an individual application"></td>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-edit-mode.png" alt="Customize outputs and applications in Edit mode"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Output per application</strong><br>Follow the system default or route an individual application to another device.</td>
+    <td align="center"><strong>Customizable interface</strong><br>Reorder, rename, style, show, or hide outputs and applications.</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-color-picker.png" alt="Custom colors and brightness"></td>
+    <td width="50%"><img src="screenshots/v1.0.0-tablet-background-picker.png" alt="Choose a background color or custom image"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Colors and brightness</strong><br>Use a preset or select any custom color and brightness.</td>
+    <td align="center"><strong>Your own background</strong><br>Use a preset, custom color, or image on every paired device.</td>
+  </tr>
+</table>
+
+<details>
+<summary>Smartphone and earlier interface views</summary>
 
 ![Phone portrait layout](screenshots/v0.10.0-phone-portrait.png)
 ![Phone landscape layout](screenshots/v0.10.0-phone-landscape.png)
-
-<details>
-<summary>Earlier interface views</summary>
-
-### Earlier tablet views
-
-![Large tablet layout](screenshots/v0.10.0-tablet.png)
-![Compact tablet layout](screenshots/v0.10.0-compact-tablet.png)
-![BB Audio Control mixer with multiple applications](screenshots/mixer.png)
-![BB Audio Control edit mode](screenshots/edit-mode.png)
-
-### Background selection
-
-![BB Audio Control background selection](screenshots/backgrounds.png)
-
-### Fader color selection
-
-![BB Audio Control fader color selection](screenshots/fader-colors.png)
+![Earlier large tablet layout](screenshots/v0.10.0-tablet.png)
+![Earlier compact tablet layout](screenshots/v0.10.0-compact-tablet.png)
 
 </details>
 
@@ -60,13 +90,16 @@ The current gallery starts with the approved tablet interface.
 - Per-application volume and mute for each audio output
 - Switch the Windows default audio output
 - Select an optional output for an application by tapping its app icon; System default continues to follow the main output buttons
-- Control the active Windows media session with previous, next, and state-aware play/pause controls; this can also pause YouTube in a browser
+- Control the active Windows media session with artwork, title, artist, previous,
+  next, and immediately responding state-aware play/pause controls; this can
+  also pause YouTube in a browser
 - Mute and unmute the microphone
 - Change the microphone input by holding the microphone button
 - Show, hide, and reorder up to five applications
-- Global and per-application fader colors
+- Global and per-application fader colors with custom colors and brightness
 - Custom output names, icons, and colors
-- Five background themes
+- Four background presets, custom background colors with brightness, and a
+  centrally stored custom background image for paired devices
 - German and English interface
 - PIN pairing and a locally generated QR code
 - CPU, GPU, and RAM information on tablets where supported by the system
@@ -84,7 +117,8 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v0.11.2.exe` from the pre-release.
+1. Download `BB-Audio-Control-Setup-v1.0.0.exe` from the
+   [1.0.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0).
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.
@@ -119,9 +153,9 @@ See [SECURITY.md](SECURITY.md) for details.
 
 ## Known limitations
 
-User-reported display checks passed on **iPad, iPhone 16 Pro, and Samsung
-Galaxy S21 Ultra**. The **TABWEE T80 beta test is still pending**. These are
-display checks, not a claim that every audio, hardware, or PWA scenario was tested.
+User-reported display checks passed on **iPad, TABWEE T80, iPhone 16 Pro, and
+Samsung Galaxy S21 Ultra**. These are display checks, not a claim that every
+audio, hardware, or PWA scenario was tested.
 
 On tablets, title and artist information plus media controls are shown for the
 active Windows media session. Tap an application's icon to choose its optional
@@ -134,7 +168,9 @@ audio output. The complete media section remains hidden on phones.
 - On phones, holding Sound opens the output selection; tapping it mutes or
   unmutes the sound.
 - The normal tablet view does not scroll; Edit mode and very short phone viewports may scroll when necessary.
-- Version 0.11.2 uses direct Windows D3DKMT adapter enumeration for GPU temperatures; practical verification in the application on the diagnosed AMD Radeon 780M is still pending.
+- Version 1.0.0 uses direct Windows D3DKMT adapter enumeration for GPU
+  temperatures; the application path was practically verified on an AMD
+  Radeon 780M.
 - A maximum of five applications can be displayed at the same time.
 - Applications appear only after Windows reports an active audio session.
 - Guest-network isolation, VPN software, or a firewall may block the tablet

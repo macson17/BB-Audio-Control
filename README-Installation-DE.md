@@ -1,11 +1,11 @@
-# BB Audio Control 0.11.2 Beta – Installation
+# BB Audio Control 1.0.0 – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Pre-Release 0.11.2 Beta](https://github.com/macson17/BB-Audio-Control/releases/tag/v0.11.2)
-   die Datei `BB-Audio-Control-Setup-v0.11.2.exe` herunterladen.
+1. Unter [Release 1.0.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0)
+   die Datei `BB-Audio-Control-Setup-v1.0.0.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -41,9 +41,12 @@ Der QR-Code enthält nur die lokale Adresse und nicht den Pairing-Code.
 - Ein langer Druck auf die Mikrofon-Taste öffnet die Eingangsauswahl.
 - Programmfader steuern aktive Windows-Audio-Sessions auf ihrem zugewiesenen Ausgang.
 - Ein Tipp auf das App-Icon öffnet die optionale Ausgangswahl. „Systemstandard“ folgt weiter den Hauptausgangstasten.
-- Die Medientasten auf Tablets steuern die aktive Windows-Mediensitzung. Damit lassen sich Musik-Apps sowie YouTube im Browser pausieren.
+- Die Medientasten auf Tablets zeigen verfügbares Cover, Titel und Interpret
+  und steuern die aktive Windows-Mediensitzung. Damit lassen sich Musik-Apps
+  sowie YouTube im Browser pausieren.
 - Auf Tablets lassen sich unter „Bearbeiten“ Ausgänge und Programme anpassen. Auf Smartphones enthält das Menü Programm- und Darstellungsoptionen, keine Ausgangskachel-Bearbeitung.
-- Unter „Darstellung“ lassen sich Sprache, Hintergrund und Faderfarbe ändern.
+- Unter „Darstellung“ lassen sich Sprache, Hintergrund, eigenes Hintergrundbild,
+  Faderfarben und die Leuchtkraft der Farben ändern.
 
 Programme werden erst angezeigt, nachdem Windows für sie eine aktive
 Audio-Session erkannt hat. Falls ein Programm fehlt, dort zunächst Ton
@@ -56,14 +59,14 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-0.11.2 Beta kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
+1.0.0 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v0.11.2 Beta** unter dem Logo achten.
+laden und auf **v1.0.0** unter dem Logo achten.
 
-Nach Nutzerprüfung ist die Darstellung auf iPad, iPhone 16 Pro und Samsung
-Galaxy S21 Ultra erfolgreich geprüft. Der TABWEE-T80-Betatest steht noch aus.
+Nach Nutzerprüfung ist die Darstellung auf iPad, TABWEE T80, iPhone 16 Pro und
+Samsung Galaxy S21 Ultra erfolgreich geprüft.
 
 Eine neue Setup-Datei über die vorhandene Installation ausführen. Das Setup
 beendet die laufende App, ersetzt die Programmdateien und startet anschließend
