@@ -123,8 +123,15 @@ h2 { margin: 8px 0 14px; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.08;
 .security ul { margin: 0; padding-left: 20px; color: var(--muted); }
 .security li + li { margin-top: 10px; }
 
+.feedback-panel { display: grid; grid-template-columns: 1.35fr .65fr; gap: 40px; align-items: center; padding: 38px; border: 1px solid rgba(57,184,255,.24); border-radius: 20px; background: linear-gradient(145deg, rgba(13,38,61,.84), rgba(6,18,29,.9)); }
+.feedback-panel h2 { margin-top: 8px; }
+.feedback-panel p { color: var(--muted); }
+.feedback-note { margin-bottom: 0; font-size: .84rem; }
+.feedback-actions { display: grid; gap: 12px; }
+
 .cta { text-align: center; padding: 90px 0 110px; }
 .cta p { color: var(--muted); margin: 0 auto 25px; }
+.cta .trademark-note { max-width: 760px; margin-top: 24px; margin-bottom: 0; color: #708295; font-size: .76rem; }
 footer { border-top: 1px solid var(--line); padding: 28px 0; color: #8798a9; font-size: .88rem; }
 .footer-row { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .footer-links { display: flex; gap: 18px; flex-wrap: wrap; }
@@ -136,7 +143,7 @@ footer { border-top: 1px solid var(--line); padding: 28px 0; color: #8798a9; fon
   .device-heading { align-items: start; flex-direction: column; }
   .device-gallery, .phone-gallery { grid-template-columns: 1fr; }
   .phone-device { min-height: auto; }
-  .steps, .security { grid-template-columns: 1fr; }
+  .steps, .security, .feedback-panel { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
   .wrap { width: min(100% - 24px, var(--max)); }
