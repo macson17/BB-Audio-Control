@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://macson17.github.io/BB-Audio-Control/sitemap.xml
