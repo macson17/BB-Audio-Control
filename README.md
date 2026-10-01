@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/Version-1.0.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.1.0" src="https://img.shields.io/badge/Version-1.1.0-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Local network without cloud" src="https://img.shields.io/badge/Connection-Local%20without%20cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0"><strong>Download BB Audio Control 1.0.0</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0"><strong>Download BB Audio Control 1.1.0</strong></a>
   ·
   <a href="#installation">Installation</a>
   ·
@@ -26,8 +26,23 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/v1.0.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 tablet dashboard" width="100%">
+  <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 tablet dashboard" width="100%">
 </p>
+
+## New in 1.1.0
+
+- Five tablet launcher keys with Windows icons, custom colors and optional names. Tap to launch an app or bring its existing window forward.
+- Hold for three seconds to force-quit the associated app, including background apps. Unsaved work may be lost. Windows can restrict focus changes; scripts, installers and protocol shortcuts cannot always be matched to an app.
+- Expand Program launchers in the Windows settings to search Start menu apps or choose a file, then customize names and colors.
+- Tablet layout starts at 1107 × 710 CSS pixels. Smaller browser viewports use the phone layout without launcher keys. Application volume faders remain available.
+- Master percentage below the fader, refreshed media keys, dimmable backgrounds and modernized Windows settings.
+- Updates retain launcher assignments, settings and the pairing PIN.
+
+### Windows app 1.1.0
+
+![Windows settings with five program launchers; connection data anonymized](screenshots/v1.1.0-windows-settings.png)
+
+*Connection data in the Windows image has been anonymized for publication.*
 
 ## A responsive mixer for your Windows PC
 
@@ -41,7 +56,7 @@ mobile device communicate directly on the local network.
 
 ## Get started in three steps
 
-1. Download and install the current Windows setup from the [1.0.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0).
+1. Download and install the current Windows setup from the [1.1.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0).
 2. Open BB Audio Control and scan the QR code with the tablet or smartphone.
 3. Enter the displayed six-digit PIN and optionally add the interface to the home screen.
 
@@ -53,7 +68,7 @@ mobile device communicate directly on the local network.
 > The installer is not digitally signed yet. Windows SmartScreen may display
 > an “Unknown publisher” warning. Only use files downloaded from this repository.
 
-## Version 1.0.0 at a glance
+## Additional views (1.0.0)
 
 <table>
   <tr>
@@ -117,8 +132,8 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v1.0.0.exe` from the
-   [1.0.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0).
+1. Download `BB-Audio-Control-Setup-v1.1.0.exe` from the
+   [1.1.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0).
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.
@@ -168,7 +183,7 @@ audio output. The complete media section remains hidden on phones.
 - On phones, holding Sound opens the output selection; tapping it mutes or
   unmutes the sound.
 - The normal tablet view does not scroll; Edit mode and very short phone viewports may scroll when necessary.
-- Version 1.0.0 uses direct Windows D3DKMT adapter enumeration for GPU
+- Version 1.1.0 uses direct Windows D3DKMT adapter enumeration for GPU
   temperatures; the application path was practically verified on an AMD
   Radeon 780M.
 - A maximum of five applications can be displayed at the same time.

@@ -10,21 +10,36 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/Version-1.0.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.1.0" src="https://img.shields.io/badge/Version-1.1.0-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 und 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Lokales Netzwerk ohne Cloud" src="https://img.shields.io/badge/Verbindung-Lokal%20ohne%20Cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0"><strong>BB Audio Control 1.0.0 herunterladen</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0"><strong>BB Audio Control 1.1.0 herunterladen</strong></a>
   · <a href="#installation">Installation</a>
   · <a href="CHANGELOG-DE.md">Änderungen</a>
   · <a href="README.md">English</a>
 </p>
 
 <p align="center">
-  <img src="screenshots/v1.0.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 auf einem Tablet" width="100%">
+  <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.1.0 auf einem Tablet" width="100%">
 </p>
+
+## Neu in 1.1.0
+
+- Fünf Programmstarter auf dem Tablet mit echten Windows-Icons, eigener Farbe und optionalem Namen. Kurz drücken startet die App oder holt ein vorhandenes Fenster nach vorn.
+- Drei Sekunden halten beendet die zugeordnete App zwangsweise, auch im Hintergrund. Ungespeicherte Arbeit kann verloren gehen. Windows kann die Fokusübernahme einschränken; Skripte, Installer und Protokollverknüpfungen sind nicht immer eindeutig zuzuordnen.
+- In der Windows-App: Programmstarter ausklappen, Apps aus dem Startmenü suchen oder eine Datei auswählen und Namen sowie Farben anpassen.
+- Ab 1107 × 710 CSS-Pixeln erscheint die Tabletansicht. Kleinere Browserflächen nutzen die Smartphoneansicht ohne Programmstarter. Die Programmlautstärkefader bleiben sichtbar.
+- Prozentanzeige unter dem Hauptfader, überarbeitete Medientasten, dimmbare Hintergründe und modernisierte Windows-Einstellungen.
+- Programmbelegungen, Einstellungen und Kopplungs-PIN bleiben beim Update erhalten.
+
+### Windows-App 1.1.0
+
+![Windows-Einstellungen mit fünf Programmstartern; Verbindungsdaten anonymisiert](screenshots/v1.1.0-windows-settings.png)
+
+*Verbindungsdaten im Windows-Bild sind für die Veröffentlichung anonymisiert.*
 
 ## Ein responsives Mischpult für deinen Windows-PC
 
@@ -38,7 +53,7 @@ PC und Mobilgerät kommunizieren unmittelbar im lokalen Netzwerk.
 
 ## In drei Schritten startklar
 
-1. Den aktuellen Windows-Installer aus dem [Release 1.0.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0) herunterladen und installieren.
+1. Den aktuellen Windows-Installer aus dem [Release 1.1.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0) herunterladen und installieren.
 2. BB Audio Control öffnen und den QR-Code mit dem Tablet oder Smartphone scannen.
 3. Die angezeigte sechsstellige PIN eingeben und die Oberfläche auf Wunsch zum Startbildschirm hinzufügen.
 
@@ -50,7 +65,7 @@ PC und Mobilgerät kommunizieren unmittelbar im lokalen Netzwerk.
 > Der Installer ist noch nicht digital signiert. Windows SmartScreen kann
 > „Unbekannter Herausgeber“ anzeigen. Nur Dateien aus diesem Repository verwenden.
 
-## Version 1.0.0 im Überblick
+## Weitere Ansichten (1.0.0)
 
 <table>
   <tr>
@@ -114,8 +129,8 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v1.0.0.exe` aus dem
-   [Release 1.0.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0) laden.
+1. `BB-Audio-Control-Setup-v1.1.0.exe` aus dem
+   [Release 1.1.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0) laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
@@ -167,7 +182,7 @@ Audioausgangswahl. Auf Smartphones bleibt die komplette Musiksektion verborgen.
 - Auf Smartphones öffnet langes Drücken auf „Sound“ die Ausgangswahl; kurzes
   Drücken schaltet den Ton stumm oder wieder ein.
 - Die normale Tablet-Ansicht scrollt nicht; Bearbeiten-Modus und sehr kurze Smartphone-Viewports dürfen bei Bedarf scrollen.
-- Version 1.0.0 verwendet die direkte Windows-D3DKMT-Adapterenumeration für
+- Version 1.1.0 verwendet die direkte Windows-D3DKMT-Adapterenumeration für
   GPU-Temperaturen; der Anwendungspfad wurde auf einer AMD Radeon 780M
   praktisch bestätigt.
 - Es werden maximal fünf Programme gleichzeitig angezeigt.

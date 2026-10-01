@@ -1,11 +1,11 @@
-# BB Audio Control 1.0.0 – Installation
+# BB Audio Control 1.1.0 – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Release 1.0.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.0.0)
-   die Datei `BB-Audio-Control-Setup-v1.0.0.exe` herunterladen.
+1. Unter [Release 1.1.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0)
+   die Datei `BB-Audio-Control-Setup-v1.1.0.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -59,11 +59,11 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-1.0.0 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
+1.1.0 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v1.0.0** unter dem Logo achten.
+laden und auf **v1.1.0** unter dem Logo achten.
 
 Nach Nutzerprüfung ist die Darstellung auf iPad, TABWEE T80, iPhone 16 Pro und
 Samsung Galaxy S21 Ultra erfolgreich geprüft.
@@ -104,3 +104,11 @@ Die Verbindung ist auf ein vertrauenswürdiges privates Netzwerk ausgelegt.
 Sie verwendet derzeit HTTP und WebSocket ohne Transportverschlüsselung. Den
 Pairing-Code nur Personen geben, die den PC steuern dürfen, und bei Verdacht im
 PC-Fenster einen neuen Code erzeugen.
+
+## Programmstarter auf dem Tablet
+
+Den Bereich **Programmstarter** in der Windows-App ausklappen. Über die Programmauswahl eine App aus dem Startmenü suchen oder **Datei auswählen** verwenden. Je Taste lassen sich Name, Namensanzeige und Farbe ändern. Mit **Übernehmen** speichern.
+
+Auf dem Tablet startet ein kurzer Druck die App oder aktiviert ihr Fenster. Drei Sekunden halten beendet die zugeordnete App zwangsweise. **Ungespeicherte Arbeit kann verloren gehen.** Auf Smartphones werden die Startertasten nicht angezeigt; die Lautstärkefader bleiben verfügbar.
+
+![BB Audio Control 1.1.0](screenshots/v1.1.0-windows-settings.png)

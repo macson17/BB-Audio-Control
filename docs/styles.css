@@ -160,3 +160,6 @@ footer { border-top: 1px solid var(--line); padding: 28px 0; color: #8798a9; fon
   .security { padding: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.windows-settings { max-width: 820px; margin-inline: auto; }
+.windows-settings img { width: 100%; height: auto; object-fit: contain; }
