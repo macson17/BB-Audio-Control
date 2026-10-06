@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.1.0" src="https://img.shields.io/badge/Version-1.1.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.2.0" src="https://img.shields.io/badge/Version-1.2.0-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 und 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Lokales Netzwerk ohne Cloud" src="https://img.shields.io/badge/Verbindung-Lokal%20ohne%20Cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0"><strong>BB Audio Control 1.1.0 herunterladen</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0"><strong>BB Audio Control 1.2.0 herunterladen</strong></a>
   · <a href="#installation">Installation</a>
   · <a href="CHANGELOG-DE.md">Änderungen</a>
   · <a href="README.md">English</a>
@@ -25,6 +25,10 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.1.0 auf einem Tablet" width="100%">
 </p>
+
+## Neu in 1.2.0: GitHub-Updates
+
+Die Windows-App sucht beim Start und täglich nach neueren stabilen GitHub-Versionen. "Nach Updates suchen" ist in den Einstellungen und im Traymenü verfügbar. "Jetzt installieren" lädt den Installer herunter, prüft dessen SHA-256 und startet das Update. "Später" verschiebt den Hinweis um einen Tag. PIN, Einstellungen, Programmbelegungen und die Autostartwahl bleiben erhalten. Der Installer ist derzeit nicht digital signiert. Der Updateabruf benötigt Internet und verbindet sich mit GitHub; Audio- und Programmeinstellungen werden nicht hochgeladen.
 
 ## Neu in 1.1.0
 
@@ -53,7 +57,7 @@ PC und Mobilgerät kommunizieren unmittelbar im lokalen Netzwerk.
 
 ## In drei Schritten startklar
 
-1. Den aktuellen Windows-Installer aus dem [Release 1.1.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0) herunterladen und installieren.
+1. Den aktuellen Windows-Installer aus dem [Release 1.2.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0) herunterladen und installieren.
 2. BB Audio Control öffnen und den QR-Code mit dem Tablet oder Smartphone scannen.
 3. Die angezeigte sechsstellige PIN eingeben und die Oberfläche auf Wunsch zum Startbildschirm hinzufügen.
 
@@ -129,8 +133,8 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v1.1.0.exe` aus dem
-   [Release 1.1.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0) laden.
+1. `BB-Audio-Control-Setup-v1.2.0.exe` aus dem
+   [Release 1.2.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0) laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.
@@ -190,7 +194,7 @@ Audioausgangswahl. Auf Smartphones bleibt die komplette Musiksektion verborgen.
 - Gastnetz-Isolation, VPN oder Firewall können die Tablet-Verbindung blockieren.
 - Die lokale PC-Adresse kann sich nach einem Netzwerkwechsel ändern.
 - Der Installer ist noch nicht digital signiert.
-- Es gibt noch keine automatische Updatefunktion.
+- Seit 1.2.0 werden GitHub-Updates automatisch gesucht; die Installation erfolgt erst nach Zustimmung.
 
 Weitere Änderungen sind im [Änderungsprotokoll](CHANGELOG-DE.md) aufgeführt.
 

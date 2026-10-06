@@ -1,11 +1,11 @@
-# BB Audio Control 1.1.0 — Installation
+# BB Audio Control 1.2.0 — Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v1.1.0.exe` from
-   [the 1.1.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0).
+1. Download `BB-Audio-Control-Setup-v1.2.0.exe` from
+   [the 1.2.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0).
 2. Double-click the setup file.
 3. Select German or English.
 4. If Windows SmartScreen displays "Unknown publisher," select "More info"
@@ -58,10 +58,10 @@ may scroll vertically.
 
 ## Update
 
-1.1.0 can update an existing installation. Local Windows upgrades of earlier test versions completed successfully
+1.2.0 can update an existing installation. Local Windows upgrades of earlier test versions completed successfully
 and kept settings, including the pairing code, byte-for-byte after startup.
 This is not a guarantee for every PC. Check the startup option during setup.
-Reload the mobile page afterwards and check for **v1.1.0** below the logo.
+Reload the mobile page afterwards and check for **v1.2.0** below the logo.
 
 Display checks reported by the user passed on iPad, TABWEE T80, iPhone 16 Pro,
 and Samsung Galaxy S21 Ultra.
@@ -108,3 +108,7 @@ Expand **Program launchers** in the Windows app. Search for a Start menu app or 
 On tablets, tap to launch or activate the app. Hold for three seconds to force-quit the associated app. **Unsaved work may be lost.** Phones do not display launcher keys; volume faders remain available.
 
 ![BB Audio Control 1.1.0](screenshots/v1.1.0-windows-settings.png)
+
+## New in 1.2.0: GitHub updates
+
+The Windows app checks for newer stable GitHub releases at startup and daily. "Check for updates" is available in settings and the tray menu. "Install now" downloads the installer, verifies SHA-256 and starts the update. "Later" postpones the prompt for one day. Your pairing PIN, settings, app assignments and startup preference are retained. The installer is currently unsigned. Update checks require internet and connect to GitHub; audio and program settings are not uploaded.

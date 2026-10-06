@@ -2,6 +2,10 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.2.0 — 2026-10-06
+
+GitHub-Updateprüfung beim Start, täglich und manuell. Jetzt installieren/Später, SHA-256-Prüfung sowie Erhalt von PIN, Einstellungen, Programmbelegungen und Autostartwahl. Der Installer ist derzeit nicht digital signiert.
+
 ## 1.1.0 — 01.10.2026
 
 Fünf Tablet-Programmstarter mit Windows-Icons, App-Suche in den Windows-Einstellungen, anpassbaren Namen und Farben. Drei Sekunden halten beendet zugeordnete Apps zwangsweise; ungespeicherte Arbeit kann verloren gehen. Tabletgrenze 1107 × 710 CSS-Pixel; Smartphoneansicht ohne Startertasten. Aktualisierte Mediensteuerung, dimmbare Hintergründe, Fader-Markierungen und Pairingdarstellung. Updates erhalten Einstellungen und Belegungen.

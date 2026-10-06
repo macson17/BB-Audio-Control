@@ -1,11 +1,11 @@
-# BB Audio Control 1.1.0 – Installation
+# BB Audio Control 1.2.0 – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Release 1.1.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0)
-   die Datei `BB-Audio-Control-Setup-v1.1.0.exe` herunterladen.
+1. Unter [Release 1.2.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0)
+   die Datei `BB-Audio-Control-Setup-v1.2.0.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -59,11 +59,11 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-1.1.0 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
+1.2.0 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v1.1.0** unter dem Logo achten.
+laden und auf **v1.2.0** unter dem Logo achten.
 
 Nach Nutzerprüfung ist die Darstellung auf iPad, TABWEE T80, iPhone 16 Pro und
 Samsung Galaxy S21 Ultra erfolgreich geprüft.
@@ -112,3 +112,7 @@ Den Bereich **Programmstarter** in der Windows-App ausklappen. Über die Program
 Auf dem Tablet startet ein kurzer Druck die App oder aktiviert ihr Fenster. Drei Sekunden halten beendet die zugeordnete App zwangsweise. **Ungespeicherte Arbeit kann verloren gehen.** Auf Smartphones werden die Startertasten nicht angezeigt; die Lautstärkefader bleiben verfügbar.
 
 ![BB Audio Control 1.1.0](screenshots/v1.1.0-windows-settings.png)
+
+## Neu in 1.2.0: GitHub-Updates
+
+Die Windows-App sucht beim Start und täglich nach neueren stabilen GitHub-Versionen. "Nach Updates suchen" ist in den Einstellungen und im Traymenü verfügbar. "Jetzt installieren" lädt den Installer herunter, prüft dessen SHA-256 und startet das Update. "Später" verschiebt den Hinweis um einen Tag. PIN, Einstellungen, Programmbelegungen und die Autostartwahl bleiben erhalten. Der Installer ist derzeit nicht digital signiert. Der Updateabruf benötigt Internet und verbindet sich mit GitHub; Audio- und Programmeinstellungen werden nicht hochgeladen.

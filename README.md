@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.1.0" src="https://img.shields.io/badge/Version-1.1.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.2.0" src="https://img.shields.io/badge/Version-1.2.0-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Local network without cloud" src="https://img.shields.io/badge/Connection-Local%20without%20cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0"><strong>Download BB Audio Control 1.1.0</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0"><strong>Download BB Audio Control 1.2.0</strong></a>
   ·
   <a href="#installation">Installation</a>
   ·
@@ -28,6 +28,10 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 tablet dashboard" width="100%">
 </p>
+
+## New in 1.2.0: GitHub updates
+
+The Windows app checks for newer stable GitHub releases at startup and daily. "Check for updates" is available in settings and the tray menu. "Install now" downloads the installer, verifies SHA-256 and starts the update. "Later" postpones the prompt for one day. Your pairing PIN, settings, app assignments and startup preference are retained. The installer is currently unsigned. Update checks require internet and connect to GitHub; audio and program settings are not uploaded.
 
 ## New in 1.1.0
 
@@ -56,7 +60,7 @@ mobile device communicate directly on the local network.
 
 ## Get started in three steps
 
-1. Download and install the current Windows setup from the [1.1.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0).
+1. Download and install the current Windows setup from the [1.2.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0).
 2. Open BB Audio Control and scan the QR code with the tablet or smartphone.
 3. Enter the displayed six-digit PIN and optionally add the interface to the home screen.
 
@@ -132,8 +136,8 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v1.1.0.exe` from the
-   [1.1.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.1.0).
+1. Download `BB-Audio-Control-Setup-v1.2.0.exe` from the
+   [1.2.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0).
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.
@@ -192,7 +196,7 @@ audio output. The complete media section remains hidden on phones.
   connection.
 - The local PC address may change after switching networks.
 - The installer is not digitally signed yet.
-- Automatic updates are not available yet.
+- Since 1.2.0, GitHub updates are checked automatically; installation requires your approval.
 
 See the [changelog](CHANGELOG.md) for further changes.
 

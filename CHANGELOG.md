@@ -2,6 +2,10 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.2.0 — 2026-10-06
+
+GitHub update checks at startup, daily and manually. Install now/Later, SHA-256 verification, and retention of the pairing PIN, settings, app assignments and startup preference. The installer is currently unsigned.
+
 ## 1.1.0 — 2026-10-01
 
 Five tablet program launchers with Windows icons, Windows settings app search, custom names and colors. Hold for three seconds to force-quit associated apps; unsaved work may be lost. Tablet threshold: 1107 × 710 CSS pixels; phone layout excludes launcher keys. Updated media controls, dimmable backgrounds, fader marks and pairing layout. Updates retain settings and assignments.
