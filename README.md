@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.2.0" src="https://img.shields.io/badge/Version-1.2.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.2.1" src="https://img.shields.io/badge/Version-1.2.1-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Local network without cloud" src="https://img.shields.io/badge/Connection-Local%20without%20cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0"><strong>Download BB Audio Control 1.2.0</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.1"><strong>Download BB Audio Control 1.2.1</strong></a>
   ·
   <a href="#installation">Installation</a>
   ·
@@ -28,6 +28,12 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 tablet dashboard" width="100%">
 </p>
+
+## New in 1.2.1
+
+- Use **Edit → Appearance → Force tablet view** to fit the complete tablet layout proportionally into smaller browser viewports, without a minimum size. The choice is saved only in that browser. Smaller viewports mean smaller controls.
+- Refreshed Windows settings without section boxes, with rounded buttons and selectors and a clearer expand arrow. Text rendering, spacing and field alignment have been improved.
+- Pairing PIN, settings and app assignments are retained. Automatic phone layout still hides launcher keys when the option is off.
 
 ## New in 1.2.0: GitHub updates
 

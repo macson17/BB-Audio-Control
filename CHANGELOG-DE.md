@@ -2,6 +2,13 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.2.1 — 2026-10-07
+
+- Unter **Bearbeiten → Darstellung → Tabletansicht erzwingen** lässt sich die vollständige Tabletansicht auch auf kleineren Browserflächen nutzen. Sie wird proportional eingepasst, ohne Mindestgröße; die Auswahl gilt nur für diesen Browser. Kleine Flächen führen zu kleineren Bedienelementen.
+- Überarbeitete Windows-Einstellungen ohne Abschnittskästen, mit abgerundeten Buttons und Auswahlfeldern sowie deutlichem Aufklapppfeil. Schrift, Abstände und Feldpositionen wurden nachgebessert.
+- PIN, Einstellungen und Programmbelegungen bleiben erhalten. Die automatische Smartphoneansicht ohne Programmstarter bleibt bei ausgeschalteter Option bestehen.
+
+
 ## 1.2.0 — 2026-10-06
 
 GitHub-Updateprüfung beim Start, täglich und manuell. Jetzt installieren/Später, SHA-256-Prüfung sowie Erhalt von PIN, Einstellungen, Programmbelegungen und Autostartwahl. Der Installer ist derzeit nicht digital signiert.

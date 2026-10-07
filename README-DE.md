@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.2.0" src="https://img.shields.io/badge/Version-1.2.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.2.1" src="https://img.shields.io/badge/Version-1.2.1-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 und 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Lokales Netzwerk ohne Cloud" src="https://img.shields.io/badge/Verbindung-Lokal%20ohne%20Cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0"><strong>BB Audio Control 1.2.0 herunterladen</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.1"><strong>BB Audio Control 1.2.1 herunterladen</strong></a>
   · <a href="#installation">Installation</a>
   · <a href="CHANGELOG-DE.md">Änderungen</a>
   · <a href="README.md">English</a>
@@ -25,6 +25,12 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.1.0 auf einem Tablet" width="100%">
 </p>
+
+## Neu in 1.2.1
+
+- Unter **Bearbeiten → Darstellung → Tabletansicht erzwingen** lässt sich die vollständige Tabletansicht auch auf kleineren Browserflächen nutzen. Sie wird proportional eingepasst, ohne Mindestgröße; die Auswahl gilt nur für diesen Browser. Kleine Flächen führen zu kleineren Bedienelementen.
+- Überarbeitete Windows-Einstellungen ohne Abschnittskästen, mit abgerundeten Buttons und Auswahlfeldern sowie deutlichem Aufklapppfeil. Schrift, Abstände und Feldpositionen wurden nachgebessert.
+- PIN, Einstellungen und Programmbelegungen bleiben erhalten. Die automatische Smartphoneansicht ohne Programmstarter bleibt bei ausgeschalteter Option bestehen.
 
 ## Neu in 1.2.0: GitHub-Updates
 

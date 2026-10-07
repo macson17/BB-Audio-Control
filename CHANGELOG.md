@@ -2,6 +2,13 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.2.1 — 2026-10-07
+
+- Use **Edit → Appearance → Force tablet view** to fit the complete tablet layout proportionally into smaller browser viewports, without a minimum size. The choice is saved only in that browser. Smaller viewports mean smaller controls.
+- Refreshed Windows settings without section boxes, with rounded buttons and selectors and a clearer expand arrow. Text rendering, spacing and field alignment have been improved.
+- Pairing PIN, settings and app assignments are retained. Automatic phone layout still hides launcher keys when the option is off.
+
+
 ## 1.2.0 — 2026-10-06
 
 GitHub update checks at startup, daily and manually. Install now/Later, SHA-256 verification, and retention of the pairing PIN, settings, app assignments and startup preference. The installer is currently unsigned.
