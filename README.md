@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.2.1" src="https://img.shields.io/badge/Version-1.2.1-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.3.0" src="https://img.shields.io/badge/Version-1.3.0-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Local network without cloud" src="https://img.shields.io/badge/Connection-Local%20without%20cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.1"><strong>Download BB Audio Control 1.2.1</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0"><strong>Download BB Audio Control 1.3.0</strong></a>
   ·
   <a href="#installation">Installation</a>
   ·
@@ -28,6 +28,14 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.0.0 tablet dashboard" width="100%">
 </p>
+
+## New in 1.3.0
+
+- New settings tabs: **Outputs**, **Programs** and **More settings**. Reorder outputs and application faders by dragging with a mouse or touch; more compact output tiles and controls.
+- Choose from media sessions reported by Windows and set a preferred player. Swipe the title/cover to switch; the full picker is available under **Settings → More settings → Media controls**. Some applications do not report media sessions to Windows.
+- Additional device identifiers help recover output names, colors and other assignments after driver or Windows updates. Automatic recovery requires an unambiguous match; previous settings are retained and can also be restored manually.
+- Background hardware identification avoids extra full scans during normal output switching.
+- Pairing PIN, settings, launcher assignments and startup preference are retained during updates.
 
 ## New in 1.2.1
 
@@ -66,7 +74,7 @@ mobile device communicate directly on the local network.
 
 ## Get started in three steps
 
-1. Download and install the current Windows setup from the [1.2.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0).
+1. Download and install the current Windows setup from the [1.3.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0).
 2. Open BB Audio Control and scan the QR code with the tablet or smartphone.
 3. Enter the displayed six-digit PIN and optionally add the interface to the home screen.
 
@@ -142,8 +150,8 @@ No separate .NET runtime installation is required on the target PC.
 
 ## Installation
 
-1. Download `BB-Audio-Control-Setup-v1.2.0.exe` from the
-   [1.2.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0).
+1. Download `BB-Audio-Control-Setup-v1.3.0.exe` from the
+   [1.3.0 release](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0).
 2. Start the setup file and select German or English.
 3. If SmartScreen displays a warning, select "More info" and then "Run
    anyway" only if the file came from this repository.

@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.3.0 — 2026-10-25
+
+- Neue Einstellungen mit den Reitern **Ausgänge**, **Programme** und **Weitere Einstellungen**. Ausgänge und Programmfader per Drag-and-drop mit Maus oder Touch sortieren; kompaktere Ausgangskacheln und Bedienelemente.
+- Wiedergabeprogramm aus den von Windows bereitgestellten Mediensitzungen wählen und einen bevorzugten Player festlegen. Am Titel/Cover per Wischgeste wechseln; die vollständige Auswahl steht unter **Einstellungen → Weitere Einstellungen → Mediensteuerung** bereit. Nicht alle Programme melden Mediensitzungen an Windows.
+- Zusätzliche Gerätekennungen helfen, Ausgangsnamen, Farben und weitere Zuordnungen nach Treiber- oder Windows-Updates wiederzuerkennen. Automatische Übernahme nur bei eindeutiger Zuordnung; alte Einstellungen bleiben erhalten und lassen sich bei Bedarf manuell übernehmen.
+- Hardwareerkennung im Hintergrund vermeidet zusätzliche vollständige Scans beim normalen Ausgangswechsel.
+- PIN, Einstellungen, Programmbelegungen und Autostartwahl bleiben bei Updates erhalten.
+
 ## 1.2.1 — 2026-10-07
 
 - Unter **Bearbeiten → Darstellung → Tabletansicht erzwingen** lässt sich die vollständige Tabletansicht auch auf kleineren Browserflächen nutzen. Sie wird proportional eingepasst, ohne Mindestgröße; die Auswahl gilt nur für diesen Browser. Kleine Flächen führen zu kleineren Bedienelementen.

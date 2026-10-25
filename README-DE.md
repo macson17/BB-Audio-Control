@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.2.1" src="https://img.shields.io/badge/Version-1.2.1-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.3.0" src="https://img.shields.io/badge/Version-1.3.0-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 und 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Lokales Netzwerk ohne Cloud" src="https://img.shields.io/badge/Verbindung-Lokal%20ohne%20Cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.1"><strong>BB Audio Control 1.2.1 herunterladen</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0"><strong>BB Audio Control 1.3.0 herunterladen</strong></a>
   · <a href="#installation">Installation</a>
   · <a href="CHANGELOG-DE.md">Änderungen</a>
   · <a href="README.md">English</a>
@@ -25,6 +25,14 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.1.0 auf einem Tablet" width="100%">
 </p>
+
+## Neu in 1.3.0
+
+- Neue Einstellungen mit den Reitern **Ausgänge**, **Programme** und **Weitere Einstellungen**. Ausgänge und Programmfader per Drag-and-drop mit Maus oder Touch sortieren; kompaktere Ausgangskacheln und Bedienelemente.
+- Wiedergabeprogramm aus den von Windows bereitgestellten Mediensitzungen wählen und einen bevorzugten Player festlegen. Am Titel/Cover per Wischgeste wechseln; die vollständige Auswahl steht unter **Einstellungen → Weitere Einstellungen → Mediensteuerung** bereit. Nicht alle Programme melden Mediensitzungen an Windows.
+- Zusätzliche Gerätekennungen helfen, Ausgangsnamen, Farben und weitere Zuordnungen nach Treiber- oder Windows-Updates wiederzuerkennen. Automatische Übernahme nur bei eindeutiger Zuordnung; alte Einstellungen bleiben erhalten und lassen sich bei Bedarf manuell übernehmen.
+- Hardwareerkennung im Hintergrund vermeidet zusätzliche vollständige Scans beim normalen Ausgangswechsel.
+- PIN, Einstellungen, Programmbelegungen und Autostartwahl bleiben bei Updates erhalten.
 
 ## Neu in 1.2.1
 
@@ -63,7 +71,7 @@ PC und Mobilgerät kommunizieren unmittelbar im lokalen Netzwerk.
 
 ## In drei Schritten startklar
 
-1. Den aktuellen Windows-Installer aus dem [Release 1.2.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0) herunterladen und installieren.
+1. Den aktuellen Windows-Installer aus dem [Release 1.3.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0) herunterladen und installieren.
 2. BB Audio Control öffnen und den QR-Code mit dem Tablet oder Smartphone scannen.
 3. Die angezeigte sechsstellige PIN eingeben und die Oberfläche auf Wunsch zum Startbildschirm hinzufügen.
 
@@ -139,8 +147,8 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v1.2.0.exe` aus dem
-   [Release 1.2.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0) laden.
+1. `BB-Audio-Control-Setup-v1.3.0.exe` aus dem
+   [Release 1.3.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0) laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.

@@ -2,6 +2,14 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.3.0 — 2026-10-25
+
+- New settings tabs: **Outputs**, **Programs** and **More settings**. Reorder outputs and application faders by dragging with a mouse or touch; more compact output tiles and controls.
+- Choose from media sessions reported by Windows and set a preferred player. Swipe the title/cover to switch; the full picker is available under **Settings → More settings → Media controls**. Some applications do not report media sessions to Windows.
+- Additional device identifiers help recover output names, colors and other assignments after driver or Windows updates. Automatic recovery requires an unambiguous match; previous settings are retained and can also be restored manually.
+- Background hardware identification avoids extra full scans during normal output switching.
+- Pairing PIN, settings, launcher assignments and startup preference are retained during updates.
+
 ## 1.2.1 — 2026-10-07
 
 - Use **Edit → Appearance → Force tablet view** to fit the complete tablet layout proportionally into smaller browser viewports, without a minimum size. The choice is saved only in that browser. Smaller viewports mean smaller controls.
