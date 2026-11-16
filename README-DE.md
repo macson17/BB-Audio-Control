@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.3.0" src="https://img.shields.io/badge/Version-1.3.0-ff9f0a?style=for-the-badge">
+  <img alt="Version 1.3.2" src="https://img.shields.io/badge/Version-1.3.2-ff9f0a?style=for-the-badge">
   <img alt="Windows 10 und 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011-1672d4?style=for-the-badge&logo=windows11&logoColor=white">
   <img alt="Lokales Netzwerk ohne Cloud" src="https://img.shields.io/badge/Verbindung-Lokal%20ohne%20Cloud-16b985?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0"><strong>BB Audio Control 1.3.0 herunterladen</strong></a>
+  <a href="https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.2"><strong>BB Audio Control 1.3.2 herunterladen</strong></a>
   · <a href="#installation">Installation</a>
   · <a href="CHANGELOG-DE.md">Änderungen</a>
   · <a href="README.md">English</a>
@@ -25,6 +25,13 @@
 <p align="center">
   <img src="screenshots/v1.1.0-tablet-dashboard.png" alt="BB Audio Control 1.1.0 auf einem Tablet" width="100%">
 </p>
+
+## Neu in 1.3.2
+
+- GPU-Abfragen laufen in einem getrennten Hilfsprozess derselben Anwendung. Bei einem Treiberwechsel kann dieser neu gestartet werden, ohne die Hauptanwendung durch native GPU-Abfragen zu gefährden; GPU-Werte können kurzzeitig fehlen.
+- Die Ausgangshistorie erhält ausgeblendete Geräte und Anpassungen bei eindeutig erkannten neuen Windows-Gerätekennungen. Mehrdeutige Zuordnungen werden nicht automatisch zusammengeführt; verspätete Browser-Einstellungen überschreiben die Wiederherstellung nicht.
+- Automatische lokale Diagnoseprotokolle unterstützen die Fehlersuche. Maximal fünf Dateien zu je 1 MiB; keine automatische Übertragung, keine PINs oder Audiodaten.
+- PIN, Einstellungen, Programmbelegungen und Autostartwahl bleiben beim Update erhalten. Die Tablet-/Smartphone-Seite danach einmal neu laden.
 
 ## Neu in 1.3.0
 
@@ -71,7 +78,7 @@ PC und Mobilgerät kommunizieren unmittelbar im lokalen Netzwerk.
 
 ## In drei Schritten startklar
 
-1. Den aktuellen Windows-Installer aus dem [Release 1.3.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0) herunterladen und installieren.
+1. Den aktuellen Windows-Installer aus dem [Release 1.3.2](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.2) herunterladen und installieren.
 2. BB Audio Control öffnen und den QR-Code mit dem Tablet oder Smartphone scannen.
 3. Die angezeigte sechsstellige PIN eingeben und die Oberfläche auf Wunsch zum Startbildschirm hinzufügen.
 
@@ -147,8 +154,8 @@ Auf dem Ziel-PC muss keine separate .NET-Laufzeit installiert werden.
 
 ## Installation
 
-1. `BB-Audio-Control-Setup-v1.3.0.exe` aus dem
-   [Release 1.3.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.0) laden.
+1. `BB-Audio-Control-Setup-v1.3.2.exe` aus dem
+   [Release 1.3.2](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.2) laden.
 2. Die Setup-Datei starten und Deutsch oder Englisch auswählen.
 3. Bei einer SmartScreen-Warnung „Weitere Informationen“ und anschließend
    „Trotzdem ausführen“ wählen, wenn die Datei aus diesem Repository stammt.

@@ -1,11 +1,11 @@
-# BB Audio Control 1.2.0 – Installation
+# BB Audio Control 1.3.2 – Installation
 
 [English](README-Installation.md) | [Deutsch](README-Installation-DE.md)
 
 ## Installation
 
-1. Unter [Release 1.2.0](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.2.0)
-   die Datei `BB-Audio-Control-Setup-v1.2.0.exe` herunterladen.
+1. Unter [Release 1.3.2](https://github.com/macson17/BB-Audio-Control/releases/tag/v1.3.2)
+   die Datei `BB-Audio-Control-Setup-v1.3.2.exe` herunterladen.
 2. Die Setup-Datei doppelt anklicken.
 3. Deutsch oder Englisch auswählen.
 4. Falls Windows SmartScreen „Unbekannter Herausgeber“ anzeigt, zunächst
@@ -59,13 +59,13 @@ Bei sehr geringer Höhe kann vertikales Scrollen nötig sein.
 
 ## Update
 
-1.2.0 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
+1.3.2 kann eine vorhandene Installation aktualisieren. Lokale Windows-Upgrades früherer Testversionen wurden
 erfolgreich durchgeführt; Einstellungen einschließlich PIN waren auch nach
 dem Start bytegenau unverändert. Das ist keine Garantie für jeden PC.
 Die Autostart-Auswahl beim Setup beachten. Anschließend die Mobilseite neu
-laden und auf **v1.2.0** unter dem Logo achten.
+laden und auf **v1.3.2** unter dem Logo achten.
 
-Nach Nutzerprüfung ist die Darstellung auf iPad, TABWEE T80, iPhone 16 Pro und
+Bei früheren Versionen wurde nach Nutzerprüfung die Darstellung auf iPad, TABWEE T80, iPhone 16 Pro und
 Samsung Galaxy S21 Ultra erfolgreich geprüft.
 
 Eine neue Setup-Datei über die vorhandene Installation ausführen. Das Setup
@@ -113,6 +113,13 @@ Auf dem Tablet startet ein kurzer Druck die App oder aktiviert ihr Fenster. Drei
 
 ![BB Audio Control 1.1.0](screenshots/v1.1.0-windows-settings.png)
 
-## Neu in 1.2.0: GitHub-Updates
+## Seit 1.2.0: GitHub-Updates
 
 Die Windows-App sucht beim Start und täglich nach neueren stabilen GitHub-Versionen. "Nach Updates suchen" ist in den Einstellungen und im Traymenü verfügbar. "Jetzt installieren" lädt den Installer herunter, prüft dessen SHA-256 und startet das Update. "Später" verschiebt den Hinweis um einen Tag. PIN, Einstellungen, Programmbelegungen und die Autostartwahl bleiben erhalten. Der Installer ist derzeit nicht digital signiert. Der Updateabruf benötigt Internet und verbindet sich mit GitHub; Audio- und Programmeinstellungen werden nicht hochgeladen.
+
+
+## Diagnose seit 1.3.2
+
+Lokale Diagnoseprotokolle liegen unter `%LocalAppData%\BBAudioControl\Logs` (maximal fünf Dateien zu je 1 MiB). Es gibt keine automatische Übertragung. Vor einer freiwilligen Weitergabe auf vertrauliche Inhalte prüfen; keine vollständigen Einstellungen oder Pairing-Codes öffentlich hochladen.
+
+Die Korrektur wurde vom Nutzer bei zwei NVIDIA-Treiberupdates ohne Absturz sowie im normalen Betrieb geprüft. Das ersetzt keine Prüfung jeder Hardwarekonfiguration.

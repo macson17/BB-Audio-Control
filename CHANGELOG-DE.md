@@ -2,6 +2,13 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.3.2 — 2026-11-16
+
+- GPU-Abfragen laufen in einem getrennten Hilfsprozess derselben Anwendung. Bei einem Treiberwechsel kann dieser neu gestartet werden, ohne die Hauptanwendung durch native GPU-Abfragen zu gefährden; GPU-Werte können kurzzeitig fehlen.
+- Die Ausgangshistorie erhält ausgeblendete Geräte und Anpassungen bei eindeutig erkannten neuen Windows-Gerätekennungen. Mehrdeutige Zuordnungen werden nicht automatisch zusammengeführt; verspätete Browser-Einstellungen überschreiben die Wiederherstellung nicht.
+- Automatische lokale Diagnoseprotokolle unterstützen die Fehlersuche. Maximal fünf Dateien zu je 1 MiB; keine automatische Übertragung, keine PINs oder Audiodaten.
+- PIN, Einstellungen, Programmbelegungen und Autostartwahl bleiben beim Update erhalten. Die Tablet-/Smartphone-Seite danach einmal neu laden.
+
 ## 1.3.0 — 2026-10-25
 
 - Neue Einstellungen mit den Reitern **Ausgänge**, **Programme** und **Weitere Einstellungen**. Ausgänge und Programmfader per Drag-and-drop mit Maus oder Touch sortieren; kompaktere Ausgangskacheln und Bedienelemente.

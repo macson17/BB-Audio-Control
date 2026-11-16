@@ -2,6 +2,13 @@
 
 [English](CHANGELOG.md) | [Deutsch](CHANGELOG-DE.md)
 
+## 1.3.2 — 2026-11-16
+
+- GPU queries run in a separate helper process of the same application. Driver changes can restart that helper without exposing the main application to native GPU queries; GPU readings may temporarily be unavailable.
+- Output history preserves hidden devices and customizations when new Windows device identifiers can be matched unambiguously. Ambiguous matches are not merged automatically; delayed browser preferences cannot overwrite recovery.
+- Automatic local diagnostic logs assist troubleshooting. At most five files of 1 MiB each; no automatic upload, pairing PINs or audio data.
+- Updates retain the pairing PIN, settings, app assignments and startup preference. Reload the tablet/smartphone page once after updating.
+
 ## 1.3.0 — 2026-10-25
 
 - New settings tabs: **Outputs**, **Programs** and **More settings**. Reorder outputs and application faders by dragging with a mouse or touch; more compact output tiles and controls.
